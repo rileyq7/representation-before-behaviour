@@ -149,7 +149,8 @@ def main(smoke: bool = False, fetch: bool = False):
             (ROOT / "results/v2/run-status.json").write_text(json.dumps(status, indent=2))
         print(json.dumps({"summaries": len(bundle), "run_status": status is not None}))
         return
-    dirty = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    tracked = ["src", "scripts", "data", "tests", "PROTOCOL-v2.md"]
+    dirty = subprocess.run(["git", "status", "--porcelain", "--", *tracked], cwd=ROOT, capture_output=True, text=True).stdout.strip()
     if dirty:
         raise SystemExit(f"Commit before launching so the protocol/code commit is exact:\n{dirty}")
     commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
