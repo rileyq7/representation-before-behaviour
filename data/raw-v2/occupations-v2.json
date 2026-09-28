@@ -1,0 +1,467 @@
+{
+ "source": "BLS CPS 2025 annual averages (11-month average excluding October 2025), Table 11, https://www.bls.gov/cps/cpsaat11.htm, page last modified 2026-02-20, retrieved 2026-09-28",
+ "source_sha256": "3f4e30846ccad33a726035381f0dd09f4add1f6a93f5b6e738b0d37431b284c1",
+ "dropped_for_balance": [
+  "barber",
+  "boiler operator",
+  "bricklayer",
+  "building inspector",
+  "cable installer",
+  "drywall installer",
+  "garbage collector",
+  "paramedic",
+  "sound technician",
+  "tile installer",
+  "tree trimmer"
+ ],
+ "occupations": [
+  {
+   "subject": "aerospace engineer",
+   "label": 0,
+   "bls_title": "Aerospace engineers",
+   "employed_thousands": 168.0,
+   "percent_women": 10.9
+  },
+  {
+   "subject": "aircraft technician",
+   "label": 0,
+   "bls_title": "Aircraft mechanics and service technicians",
+   "employed_thousands": 165.0,
+   "percent_women": 8.1
+  },
+  {
+   "subject": "architect",
+   "label": 0,
+   "bls_title": "Architects, except landscape and naval",
+   "employed_thousands": 254.0,
+   "percent_women": 29.8
+  },
+  {
+   "subject": "butcher",
+   "label": 0,
+   "bls_title": "Butchers and other meat, poultry, and fish processing workers",
+   "employed_thousands": 255.0,
+   "percent_women": 22.1
+  },
+  {
+   "subject": "chef",
+   "label": 0,
+   "bls_title": "Chefs and head cooks",
+   "employed_thousands": 516.0,
+   "percent_women": 26.4
+  },
+  {
+   "subject": "civil engineer",
+   "label": 0,
+   "bls_title": "Civil engineers",
+   "employed_thousands": 525.0,
+   "percent_women": 21.8
+  },
+  {
+   "subject": "correctional officer",
+   "label": 0,
+   "bls_title": "Correctional officers and jailers",
+   "employed_thousands": 296.0,
+   "percent_women": 25.8
+  },
+  {
+   "subject": "cost estimator",
+   "label": 0,
+   "bls_title": "Cost estimators",
+   "employed_thousands": 146.0,
+   "percent_women": 20.5
+  },
+  {
+   "subject": "courier",
+   "label": 0,
+   "bls_title": "Couriers and messengers",
+   "employed_thousands": 949.0,
+   "percent_women": 28.7
+  },
+  {
+   "subject": "diesel technician",
+   "label": 0,
+   "bls_title": "Bus and truck mechanics and diesel engine specialists",
+   "employed_thousands": 369.0,
+   "percent_women": 1.8
+  },
+  {
+   "subject": "electrical engineer",
+   "label": 0,
+   "bls_title": "Electrical and electronics engineers",
+   "employed_thousands": 284.0,
+   "percent_women": 10.1
+  },
+  {
+   "subject": "electrician",
+   "label": 0,
+   "bls_title": "Electricians",
+   "employed_thousands": 1063.0,
+   "percent_women": 3.5
+  },
+  {
+   "subject": "equipment operator",
+   "label": 0,
+   "bls_title": "Construction equipment operators",
+   "employed_thousands": 404.0,
+   "percent_women": 4.6
+  },
+  {
+   "subject": "firefighter",
+   "label": 0,
+   "bls_title": "Firefighters",
+   "employed_thousands": 352.0,
+   "percent_women": 5.1
+  },
+  {
+   "subject": "forklift operator",
+   "label": 0,
+   "bls_title": "Industrial truck and tractor operators",
+   "employed_thousands": 640.0,
+   "percent_women": 8.1
+  },
+  {
+   "subject": "groundskeeper",
+   "label": 0,
+   "bls_title": "Landscaping and groundskeeping workers",
+   "employed_thousands": 1114.0,
+   "percent_women": 7.9
+  },
+  {
+   "subject": "industrial engineer",
+   "label": 0,
+   "bls_title": "Industrial engineers, including health and safety",
+   "employed_thousands": 274.0,
+   "percent_women": 23.3
+  },
+  {
+   "subject": "lineworker",
+   "label": 0,
+   "bls_title": "Electrical power-line installers and repairers",
+   "employed_thousands": 144.0,
+   "percent_women": 3.8
+  },
+  {
+   "subject": "machinist",
+   "label": 0,
+   "bls_title": "Machinists",
+   "employed_thousands": 309.0,
+   "percent_women": 5.8
+  },
+  {
+   "subject": "mechanical engineer",
+   "label": 0,
+   "bls_title": "Mechanical engineers",
+   "employed_thousands": 419.0,
+   "percent_women": 11.2
+  },
+  {
+   "subject": "network administrator",
+   "label": 0,
+   "bls_title": "Network and computer systems administrators",
+   "employed_thousands": 154.0,
+   "percent_women": 18.2
+  },
+  {
+   "subject": "painter",
+   "label": 0,
+   "bls_title": "Painters and paperhangers",
+   "employed_thousands": 485.0,
+   "percent_women": 11.1
+  },
+  {
+   "subject": "pilot",
+   "label": 0,
+   "bls_title": "Aircraft pilots and flight engineers",
+   "employed_thousands": 201.0,
+   "percent_women": 7.0
+  },
+  {
+   "subject": "plumber",
+   "label": 0,
+   "bls_title": "Plumbers, pipefitters, and steamfitters",
+   "employed_thousands": 624.0,
+   "percent_women": 3.1
+  },
+  {
+   "subject": "police officer",
+   "label": 0,
+   "bls_title": "Police officers",
+   "employed_thousands": 705.0,
+   "percent_women": 16.4
+  },
+  {
+   "subject": "press operator",
+   "label": 0,
+   "bls_title": "Printing press operators",
+   "employed_thousands": 142.0,
+   "percent_women": 20.0
+  },
+  {
+   "subject": "programmer",
+   "label": 0,
+   "bls_title": "Computer programmers",
+   "employed_thousands": 381.0,
+   "percent_women": 18.5
+  },
+  {
+   "subject": "refrigeration technician",
+   "label": 0,
+   "bls_title": "Heating, air conditioning, and refrigeration mechanics and installers",
+   "employed_thousands": 561.0,
+   "percent_women": 2.7
+  },
+  {
+   "subject": "roofer",
+   "label": 0,
+   "bls_title": "Roofers",
+   "employed_thousands": 259.0,
+   "percent_women": 0.9
+  },
+  {
+   "subject": "sheet metal worker",
+   "label": 0,
+   "bls_title": "Sheet metal workers",
+   "employed_thousands": 148.0,
+   "percent_women": 4.9
+  },
+  {
+   "subject": "stockbroker",
+   "label": 0,
+   "bls_title": "Securities, commodities, and financial services sales agents",
+   "employed_thousands": 199.0,
+   "percent_women": 21.8
+  },
+  {
+   "subject": "welder",
+   "label": 0,
+   "bls_title": "Welding, soldering, and brazing workers",
+   "employed_thousands": 573.0,
+   "percent_women": 5.8
+  },
+  {
+   "subject": "HR specialist",
+   "label": 1,
+   "bls_title": "Human resources workers",
+   "employed_thousands": 897.0,
+   "percent_women": 78.3
+  },
+  {
+   "subject": "academic advisor",
+   "label": 1,
+   "bls_title": "Educational, guidance, and career counselors and advisors",
+   "employed_thousands": 348.0,
+   "percent_women": 77.0
+  },
+  {
+   "subject": "animal caretaker",
+   "label": 1,
+   "bls_title": "Animal caretakers",
+   "employed_thousands": 364.0,
+   "percent_women": 77.8
+  },
+  {
+   "subject": "bank teller",
+   "label": 1,
+   "bls_title": "Tellers",
+   "employed_thousands": 224.0,
+   "percent_women": 76.6
+  },
+  {
+   "subject": "billing specialist",
+   "label": 1,
+   "bls_title": "Billing and posting clerks",
+   "employed_thousands": 403.0,
+   "percent_women": 84.5
+  },
+  {
+   "subject": "bookkeeper",
+   "label": 1,
+   "bls_title": "Bookkeeping, accounting, and auditing clerks",
+   "employed_thousands": 1254.0,
+   "percent_women": 82.7
+  },
+  {
+   "subject": "caregiver",
+   "label": 1,
+   "bls_title": "Personal care aides",
+   "employed_thousands": 1840.0,
+   "percent_women": 79.8
+  },
+  {
+   "subject": "caseworker",
+   "label": 1,
+   "bls_title": "Social and human service assistants",
+   "employed_thousands": 210.0,
+   "percent_women": 75.2
+  },
+  {
+   "subject": "childcare worker",
+   "label": 1,
+   "bls_title": "Childcare workers",
+   "employed_thousands": 1106.0,
+   "percent_women": 93.2
+  },
+  {
+   "subject": "claims processor",
+   "label": 1,
+   "bls_title": "Insurance claims and policy processing clerks",
+   "employed_thousands": 274.0,
+   "percent_women": 79.4
+  },
+  {
+   "subject": "classroom aide",
+   "label": 1,
+   "bls_title": "Teaching assistants",
+   "employed_thousands": 1462.0,
+   "percent_women": 80.1
+  },
+  {
+   "subject": "dental hygienist",
+   "label": 1,
+   "bls_title": "Dental hygienists",
+   "employed_thousands": 203.0,
+   "percent_women": 95.0
+  },
+  {
+   "subject": "dietitian",
+   "label": 1,
+   "bls_title": "Dietitians and nutritionists",
+   "employed_thousands": 136.0,
+   "percent_women": 91.7
+  },
+  {
+   "subject": "esthetician",
+   "label": 1,
+   "bls_title": "Skincare specialists",
+   "employed_thousands": 113.0,
+   "percent_women": 100.0
+  },
+  {
+   "subject": "event planner",
+   "label": 1,
+   "bls_title": "Meeting, convention, and event planners",
+   "employed_thousands": 201.0,
+   "percent_women": 73.4
+  },
+  {
+   "subject": "home health aide",
+   "label": 1,
+   "bls_title": "Home health aides",
+   "employed_thousands": 726.0,
+   "percent_women": 86.1
+  },
+  {
+   "subject": "manicurist",
+   "label": 1,
+   "bls_title": "Manicurists and pedicurists",
+   "employed_thousands": 277.0,
+   "percent_women": 85.2
+  },
+  {
+   "subject": "massage therapist",
+   "label": 1,
+   "bls_title": "Massage therapists",
+   "employed_thousands": 183.0,
+   "percent_women": 76.5
+  },
+  {
+   "subject": "medical coder",
+   "label": 1,
+   "bls_title": "Medical records specialists",
+   "employed_thousands": 166.0,
+   "percent_women": 92.3
+  },
+  {
+   "subject": "occupational therapist",
+   "label": 1,
+   "bls_title": "Occupational therapists",
+   "employed_thousands": 138.0,
+   "percent_women": 92.4
+  },
+  {
+   "subject": "paralegal",
+   "label": 1,
+   "bls_title": "Paralegals and legal assistants",
+   "employed_thousands": 486.0,
+   "percent_women": 82.4
+  },
+  {
+   "subject": "pharmacy technician",
+   "label": 1,
+   "bls_title": "Pharmacy technicians",
+   "employed_thousands": 373.0,
+   "percent_women": 76.8
+  },
+  {
+   "subject": "phlebotomist",
+   "label": 1,
+   "bls_title": "Phlebotomists",
+   "employed_thousands": 144.0,
+   "percent_women": 88.2
+  },
+  {
+   "subject": "psychiatric technician",
+   "label": 1,
+   "bls_title": "Psychiatric technicians",
+   "employed_thousands": 142.0,
+   "percent_women": 76.8
+  },
+  {
+   "subject": "psychologist",
+   "label": 1,
+   "bls_title": "Other psychologists",
+   "employed_thousands": 152.0,
+   "percent_women": 71.3
+  },
+  {
+   "subject": "social worker",
+   "label": 1,
+   "bls_title": "Healthcare social workers",
+   "employed_thousands": 118.0,
+   "percent_women": 81.5
+  },
+  {
+   "subject": "sonographer",
+   "label": 1,
+   "bls_title": "Diagnostic medical sonographers",
+   "employed_thousands": 119.0,
+   "percent_women": 80.6
+  },
+  {
+   "subject": "speech therapist",
+   "label": 1,
+   "bls_title": "Speech-language pathologists",
+   "employed_thousands": 203.0,
+   "percent_women": 97.3
+  },
+  {
+   "subject": "surgical technologist",
+   "label": 1,
+   "bls_title": "Surgical technologists",
+   "employed_thousands": 107.0,
+   "percent_women": 77.3
+  },
+  {
+   "subject": "tutor",
+   "label": 1,
+   "bls_title": "Tutors",
+   "employed_thousands": 165.0,
+   "percent_women": 73.5
+  },
+  {
+   "subject": "typist",
+   "label": 1,
+   "bls_title": "Data entry keyers",
+   "employed_thousands": 229.0,
+   "percent_women": 70.4
+  },
+  {
+   "subject": "veterinary technician",
+   "label": 1,
+   "bls_title": "Veterinary technologists and technicians",
+   "employed_thousands": 145.0,
+   "percent_women": 87.2
+  }
+ ]
+}

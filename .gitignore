@@ -9,3 +9,4 @@ results/**/activations.npz
 .DS_Store
 *.lock
 STOP
+results/v2/**/arrays.npz
