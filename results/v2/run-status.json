@@ -1,0 +1,15 @@
+{
+  "jobs": 484,
+  "missing": [
+    [
+      "pythia-410m-seed9",
+      40000
+    ]
+  ],
+  "errors": [
+    {
+      "stage": "infer",
+      "error": "UserCodeException(RuntimeError('coroutine raised StopIteration'))"
+    }
+  ]
+}

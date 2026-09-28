@@ -15,7 +15,7 @@ If association consistently reached its learned level before expression did, tha
 |---|---|---|
 | v1: Pythia-1.4B, all 154 checkpoints | Complete | No robust ordering. Both measures reach 25% and 50% of their learned range in the same checkpoint brackets (steps 512-2,000). Bootstrap intervals for the lead include zero at every threshold. |
 | Detectability analysis of v1 | Complete (post hoc) | The v1 null result is not informative. If association truly reached every level 16 times sooner, v1 would have detected it at most 61% of the time. |
-| v2: 10 training seeds of Pythia-410M, plus 1.4B | Running | Preregistered replication with a continuous association measure, causal ablation of the gender direction, a 25-layer sweep, the logit lens and 64 additional occupations. |
+| v2: 10 training seeds of Pythia-410M, plus 1.4B | Complete (preregistered) | Primary result unresolved at the 50% threshold (lead ratio 0.50x, 95% CI 0.16 to 1.55). The ordering flips with the threshold: association reaches 25% first, expression reaches 75% first. Ablating the gender direction has a specific effect on stereotyped output in 9 of 10 seeds. |
 
 ### v1: Pythia-1.4B
 
@@ -47,10 +47,19 @@ A [simulation of the v2 design](reports/detectability-v2-prospective.json) estim
 
 ### v2: preregistered multi-seed replication
 
+- [v2 report](reports/V2_REPORT.md), with [figure](reports/v2.png) and [data](reports/v2.json)
 - [Protocol v2](PROTOCOL-v2.md), committed under the tag [v2-prereg](https://github.com/rileyq7/representation-before-behaviour/tree/v2-prereg) before any v2 output was collected
-- Primary question: across 10 independent Pythia-410M training runs ([PolyPythias](https://huggingface.co/EleutherAI/pythia-410m-seed1)), is the mean log-ratio of 50% crossing times for association and expression different from zero? The test is a t confidence interval over seeds.
-- Secondary analyses: Pythia-1.4B, all 25 layers, the logit lens, ablation of the gender direction compared with 10 random directions, v1's accuracy measure, and the WinoBias occupations on their own.
-- Results will be added to `reports/V2_REPORT.md` and linked here when the run finishes.
+- Models: 10 independent Pythia-410M training runs ([PolyPythias](https://huggingface.co/EleutherAI/pythia-410m-seed1)) and Pythia-1.4B, each at 44 checkpoints, 104 occupations
+
+Findings:
+
+- **Primary (50% threshold): unresolved.** Mean lead ratio 0.50x, 95% CI 0.16 to 1.55, over 7 seeds. Seeds 3 and 4 failed the preregistered gender-decoding check at layer 12, and seed 9 is missing one checkpoint on Hugging Face. Including seed 9 as a post-hoc check gives the same result.
+- **Threshold dependence.** Association reaches 25% of its range first (1.31x, CI 1.03 to 1.66). Expression reaches 75% first (0.31x, CI 0.16 to 0.58). The association signal starts rising earlier, but the behaviour settles sooner.
+- **Ablation.** Removing the layer-12 gender direction lowers stereotyped output more than all 10 random directions in 9 of 10 seeds. The ablation effect also reaches 25% of its range before expression does.
+- **Layers.** Association leads expression at layers 2 to 7 but not at layer 12. The layer-12 logit lens leads expression. These are descriptive results across many layers.
+- **Pythia-1.4B.** No threshold gives an interval that excludes equal timing, consistent with v1.
+
+Overall: there is no single answer to "representation first or behaviour first". It depends on the threshold and the layer, and at the preregistered primary threshold the data cannot decide.
 
 ## Method
 
