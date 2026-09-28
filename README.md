@@ -1,65 +1,122 @@
-# Representation before behaviour
+# Representation before behaviour?
 
-**Question:** Does occupational gender bias become linearly accessible before it becomes behaviourally observable?
+**Does occupational gender bias become linearly decodable inside a language model before it shows up in the model's outputs?**
 
-Local Pythia-1.4B checkpoint experiment. See [PROTOCOL.md](PROTOCOL.md) before interpreting results. The source Apple's ~80k finding concerns **6.9B**, so a jump in 1.4B is a hypothesis, not a supplied ground truth.
+This project tracks both across the full training history of Pythia models. For each checkpoint it measures:
 
-## Current results and progress
+- **Association:** does the residual stream at layer 12 align occupations with an independently learned gender direction? This is a linear probe trained only on explicit words like *mother/father*, with no occupation labels.
+- **Expression:** does the model actually prefer *she* over *he* after stereotypically female occupations, and vice versa? This is the signed logit difference at the next token.
 
-- **Complete:** [Final findings and limitations](reports/FINAL_REPORT.md) — 154/154 checkpoints and all four follow-up evaluations.
-- [Current timing analysis: shared onsets and selectivity](reports/AMENDMENT-01.md), updated from saved checkpoints
-- [Original protocol report](reports/REPORT.md), retained for audit with its original absolute thresholds
-- [Raw curve figure](reports/curves.png)
-- [Machine-readable progress](results/status.json)
-- [Analysis and missing checkpoints](reports/analysis.json)
-- [Amendment and interpretation commitments](AMENDMENT-01.md)
-- [Inference verification](results/inference-verification.json)
-- Full log: `results/sweep.log`
+If association consistently reached its learned level earlier than expression, that would suggest the representation forms first and behaviour follows.
 
-An incomplete sweep is explicitly labelled **partial** and does not produce an A/B timing conclusion. The runner does not need an active chat to continue, but the Mac must stay on and have network access. The launch command prevents idle sleep while the process runs; closing the lid or restarting can interrupt it. Completed checkpoints are reused on restart.
+## Results at a glance
 
-Use the shared 25/50/75% endpoint-normalised analysis for the revised timing question. The original report's unequal absolute-threshold analysis remains an audit/sensitivity result, not the revised primary onset comparison. The amendment was requested after the coarse curves had been inspected; it is explicitly labelled accordingly.
+| Study | Status | Finding |
+|---|---|---|
+| **v1: Pythia-1.4B, all 154 checkpoints** | ✅ Complete | No robust ordering. Both measures reach 25% and 50% of their learned range in the same checkpoint brackets (steps 512–2,000). Paired bootstrap intervals for the lead include zero at every threshold. |
+| **Detectability analysis of v1** | ✅ Complete (post hoc) | v1's null result is **not informative**. Even if association truly reached every level 16× sooner, v1 would have detected it at most 61% of the time. The bracket-ordering rule reports a spurious ordering up to 28% of the time when there is no lead. |
+| **v2: 10 training seeds (Pythia-410M) + 1.4B, preregistered** | ⏳ Running | Adds a continuous association measure, causal ablation of the gender direction, a 25-layer sweep, the logit lens, and 64 new BLS occupations. Analysis code was committed before any v2 data was inspected. |
 
-## Run locally
+### v1: Pythia-1.4B (complete)
 
-The project-local `.venv` contains the locked dependencies. All commands run from this folder.
+- 📄 **[Final report](reports/FINAL_REPORT.md)**: main findings, controls and limitations.
+- 📈 [Shared-onset analysis (Amendment 01)](reports/AMENDMENT-01.md), with its [figure](reports/amendment-01.png) and [data](reports/amendment-01.json).
+- 📈 [Original protocol report](reports/REPORT.md) and [raw curves](reports/curves.png), retained for audit.
+- 🧪 [Apple-style follow-up (JSD-P gap, steps 2k–5k)](reports/apple-confirmation.json).
 
-```bash
-.venv/bin/python scripts/run.py prepare
-.venv/bin/python -m pytest -q
-.venv/bin/python scripts/run.py sweep --steps all --device mps --full-bracket
+Headline numbers:
+- **Direct occupation-label probe:** 70.1% accuracy against 49.2% for matched shuffled-label controls, giving **+20.9 pp selectivity** (95% CI 12.8–28.1).
+- **Onset brackets (step 0 → final range):**
+
+| Range reached | Association | Expression | Lead 95% CI (steps) |
+|---:|---|---|---|
+| 25% | 512–1,000 | 512–1,000 | [−1,000, +1,872] |
+| 50% | 1,000–2,000 | 1,000–2,000 | [−2,000, +1,000] |
+| 75% | 5,000–6,000 | 1,000–2,000 | [−7,000, +2,000] |
+
+### Could v1 have detected a lead at all?
+
+📄 **[Detectability report](reports/DETECTABILITY.md)**, with its [figure](reports/detectability.png) and [data](reports/detectability.json).
+
+This is a simulation that plants known leads into realistic noise taken from v1's own residuals, then reruns the exact v1 pipeline. Main points:
+- Power to detect a representation-first lead is low at every lead size tested.
+- Power is lopsided: an expression-first lead is much easier to detect, because the association curve is noisier.
+- Pythia's checkpoint grid has no checkpoint between steps 512 and 1,000, which is exactly where both curves rise. That gap caps the resolution.
+- The bracket rule is not a controlled test. The bootstrap CI is conservative, with 0% false positives in simulation.
+
+A [prospective simulation of the v2 design](reports/detectability-v2-prospective.json) estimates at least 93% power for a 1.25× lead. That is an upper bound, because it assumes all seeds share the same true timing.
+
+### v2: preregistered multi-seed replication (running)
+
+- 📋 **[Protocol v2](PROTOCOL-v2.md)**, committed under tag [`v2-prereg`](https://github.com/rileyq7/representation-before-behaviour/tree/v2-prereg) before any v2 output was collected.
+- **Primary question:** across 10 independent Pythia-410M training runs ([PolyPythias](https://huggingface.co/EleutherAI/pythia-410m-seed1)), is the mean log-ratio of 50%-crossing times (association vs expression) different from zero? This is tested with a t-CI over seeds.
+- **Secondary analyses:** Pythia-1.4B; all 25 layers; logit lens; gender-direction ablation versus 10 random directions; v1's accuracy measure; the WinoBias-only occupations.
+- **Where to look:** results will appear in `reports/V2_REPORT.md`, and this README will link them when the run finishes.
+
+## How it works
+
+```
+prompts ──► checkpoint ──► last-token residual stream (layers 0–24) ──► linear probes ──► association
+                      └──► next-token logits (" she" − " he") ───────────────────────► expression
 ```
 
-The final command runs all 154 checkpoints, then the full Apple-style reconstruction around the largest discovery-set JSD-P-gap change. `--steps coarse` runs 12 discovery checkpoints; `--steps 0,1000,80000` selects explicit steps. Default batch size is 4. Only one sweep may run at a time (process lock). Do not manually replace the cached model while a sweep is active.
+- **Prompts:** 40 WinoBias occupations (v2 adds 64 BLS occupations) × 6 neutral templates, e.g. *"The nurse said that"*. Also 10 explicit gender word pairs × the same templates, used to train the gender probe.
+- **Probes:** standardised logistic regression (C = 0.01) with occupation- and template-held-out folds. Controls: shuffled-label controls, random initialisation, the embedding layer, and a character n-gram lexical baseline.
+- **Timing:** each curve is normalised to its own step-0-to-final range, and the analysis asks when it first reaches 25%, 50% and 75%. Uncertainty comes from a stratified occupation bootstrap; in v2, seeds are the unit of replication.
+- **Scope:** "linearly accessible" is not the same as "causally used". v2's ablation analysis addresses causal use directly.
 
-To run independently of the terminal, use `.venv/bin/python scripts/launch.py`. It records launch information and writes `results/sweep.log`. To pause after the current checkpoint, create an empty `STOP` file in the project root (`touch STOP`). To resume, remove that file and rerun the launch command. An immediate stop loses only the currently unfinished checkpoint; use the recorded process IDs if necessary. `scripts/status.py` reports process liveness, progress, recent log lines and a rough ETA.
+## Repository layout
+
+| Path | Contents |
+|---|---|
+| `PROTOCOL.md`, `AMENDMENT-01.md`, `PROTOCOL-v2.md` | Analysis plans, in the order they were fixed |
+| `reports/` | All reports, figures and machine-readable results |
+| `src/mech/` | Data construction, inference, probes, statistics (`amendment.py`, `detectability.py`, `v2.py`, `analysis_v2.py`) |
+| `scripts/` | Local runner (`run.py`), Modal cloud runner (`modal_v2.py`), report builders |
+| `data/` | Prompts, manifests, WinoBias source files, BLS source table |
+| `results/checkpoints/` | v1 per-checkpoint outputs, probe predictions and provenance (activations are not in git) |
+| `results/v2/` | v2 per-checkpoint summaries (arrays stay on the Modal Volume) |
+| `sources/` | Source papers' metadata, model file hashes, references |
+| `tests/` | Software tests on synthetic data (never used as results) |
+
+## Reproduce
+
+Requires Python 3.13. Exact package versions are in `requirements-lock.txt`.
 
 ```bash
-.venv/bin/python scripts/status.py
+python -m venv .venv && .venv/bin/pip install -r requirements-lock.txt
+.venv/bin/python scripts/fetch_data.py          # downloads WinoBias; verifies SHA-256 hashes
+.venv/bin/python scripts/run.py prepare
+.venv/bin/python -m pytest -q
+```
+
+**v1 (local, Apple Silicon or CUDA):**
+
+```bash
+.venv/bin/python scripts/run.py sweep --steps all --device mps --full-bracket   # ~450 GB of downloads, days locally
+.venv/bin/python scripts/amend.py                                              # Amendment 01 analysis
 .venv/bin/python scripts/run.py report
 ```
 
-The post-inspection shared-onset/selectivity analysis is a separate CPU worker: `.venv/bin/python scripts/amend.py --background`. It analyses existing saved activations and follows new completed checkpoints, without re-downloading weights. Progress is in `results/amendment-01-status.json`. Run without flags for a one-off update. The original protocol and reports are retained alongside the amendment.
+- Run it detached with `scripts/launch.py`, pause it with `touch STOP`, and check progress with `scripts/status.py`.
+- Completed checkpoints are reused on restart.
+- Only one checkpoint (~2.9 GB) is kept on disk at a time.
 
-No paid GPU services are used. Download traffic is approximately **450 GB** for the full sweep plus bracket reconstruction. Only one ~2.93 GB checkpoint is retained, and the runner waits before a new download if less than 8 GiB of disk space is free, then resumes automatically when space recovers. Checkpoint downloads retry temporary network/DNS errors automatically with backoff up to five minutes. A STOP file interrupts the wait. Permanent errors still stop after three attempts. Abandoned per-process partial files are cleared before a retry to bound disk use; completed checkpoints are always reused. Failures are saved in `results/status.json`; the process never reports a failed sweep as completed.
+**Detectability analysis:** `.venv/bin/python scripts/detectability.py` (~8 minutes on CPU).
 
-Download optimisation checked on 2026-09-21: an equal-size 128 MiB benchmark measured 5.73 MB/s with one HTTP connection and 5.54 MB/s with four parallel byte-range transfers (`results/download-benchmark.json`). Xet high-performance mode stalled and was not adopted. The runner therefore retains HTTP transfers and one checkpoint at a time. It now waits for reclaimed disk space while enforcing the unchanged 8 GiB floor, refreshing its status every 30 seconds; a STOP file pauses this wait, and verifies downloaded weight files against the model repository's SHA-256 digest. These are operational changes; prompts, probe settings and statistical criteria are unchanged.
+**v2 (Modal cloud; about 480 checkpoints, roughly $5–10 of compute):**
 
-## Experiment structure
+```bash
+modal run scripts/modal_v2.py --smoke        # 2 checkpoints: timing and cost check
+modal run --detach scripts/modal_v2.py       # full run; resumable
+modal run scripts/modal_v2.py --fetch        # copy summaries to results/v2/
+.venv/bin/python scripts/report_v2.py
+```
 
-- 40 original WinoBias occupations × 6 fixed neutral templates (240 rows).
-- 10 explicit gender word pairs × 6 templates (120 rows) to train an occupation-label-free gender transfer probe.
-- Five fixed layers, primary layer 12; train-fold-only scaling and fixed logistic regression.
-- Occupation and template holdouts, gender-word generalisation, label permutations, random initialization, embedding and lexical controls.
-- Matched behavioural log-odds and discrete preferences; Apple-style probability/rank/JSD-P reconstruction kept separate.
-- Clustered uncertainty, simultaneous full-curve onset bands, sustained-crossing rules and censoring.
+## Provenance and caveats
 
-Saved arrays are real model outputs, not simulated curves. `tests/` only validates calculations and experimental bookkeeping. The inferred concept is linearly accessible gender–occupation alignment under these prompts; this is not evidence of causal use or proof that earlier representations do not exist.
-
-## Files
-
-`data/`: original downloaded data, derived prompts and manifests. `sources/`: paper figure, source descriptions and download hashes. `src/mech/`: data, inference, probes, statistics and reports. `scripts/`: download, run, verify, launch and status commands. `results/checkpoints/stepNNNNNN/`: per-item outputs, activations, probe predictions and checkpoint commit IDs. `requirements-lock.txt`: exact installed packages. Model inference is float16 on MPS; stored activations and probes use float32 or higher.
-
-## Reproduce in a fresh environment
-
-Use Python 3.13, create a virtual environment, and install `requirements-lock.txt`. Run `scripts/fetch_data.py` to download the same original data; it checks the recorded SHA-256 hashes. On CUDA hardware use `--device cuda`; do not combine results from different precision/device settings without a comparison. Public Hugging Face downloads need network access but no account token.
+- **Models:** each checkpoint is resolved to an immutable Hugging Face commit, and its weight SHA-256 is verified.
+- **Devices:** v1 ran float16 inference on Apple MPS; v2 runs float16 on NVIDIA L4. At the 1.4B final checkpoint the two agree on expression to r = 1.0000 (largest difference 0.005 logits), and transfer accuracy is identical for all 40 occupations. v1 and v2 data are never pooled.
+- **Amendment 01** was written *after* inspecting v1's coarse curves and is labelled as such. The detectability analysis is post hoc. v2 is the preregistered test.
+- **Relation to Patel et al.** The ~80k-step transition in [Patel et al., *Fairness Dynamics During Training*](https://arxiv.org/abs/2506.01709) was reported for Pythia-6.9B, not 1.4B. The Apple-style prompts here are a reconstruction, not the authors' code.
+- **Data terms:** WinoBias ([Zhao et al., 2018](https://github.com/uclanlp/corefBias)) and BLS CPS Table 11 are redistributed under their original terms. Full references are in `sources/REFERENCES.md`.
