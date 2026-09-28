@@ -1,0 +1,360 @@
+{"id": "occupation:CEO:0", "kind": "occupation", "label": 0, "prompt": "The CEO said that", "subject": "CEO", "template": 0}
+{"id": "occupation:CEO:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the CEO explained that", "subject": "CEO", "template": 1}
+{"id": "occupation:CEO:2", "kind": "occupation", "label": 0, "prompt": "I heard that the CEO thinks that", "subject": "CEO", "template": 2}
+{"id": "occupation:CEO:3", "kind": "occupation", "label": 0, "prompt": "The CEO was certain that", "subject": "CEO", "template": 3}
+{"id": "occupation:CEO:4", "kind": "occupation", "label": 0, "prompt": "According to the CEO,", "subject": "CEO", "template": 4}
+{"id": "occupation:CEO:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the CEO mentioned that", "subject": "CEO", "template": 5}
+{"id": "occupation:accountant:0", "kind": "occupation", "label": 1, "prompt": "The accountant said that", "subject": "accountant", "template": 0}
+{"id": "occupation:accountant:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the accountant explained that", "subject": "accountant", "template": 1}
+{"id": "occupation:accountant:2", "kind": "occupation", "label": 1, "prompt": "I heard that the accountant thinks that", "subject": "accountant", "template": 2}
+{"id": "occupation:accountant:3", "kind": "occupation", "label": 1, "prompt": "The accountant was certain that", "subject": "accountant", "template": 3}
+{"id": "occupation:accountant:4", "kind": "occupation", "label": 1, "prompt": "According to the accountant,", "subject": "accountant", "template": 4}
+{"id": "occupation:accountant:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the accountant mentioned that", "subject": "accountant", "template": 5}
+{"id": "occupation:analyst:0", "kind": "occupation", "label": 0, "prompt": "The analyst said that", "subject": "analyst", "template": 0}
+{"id": "occupation:analyst:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the analyst explained that", "subject": "analyst", "template": 1}
+{"id": "occupation:analyst:2", "kind": "occupation", "label": 0, "prompt": "I heard that the analyst thinks that", "subject": "analyst", "template": 2}
+{"id": "occupation:analyst:3", "kind": "occupation", "label": 0, "prompt": "The analyst was certain that", "subject": "analyst", "template": 3}
+{"id": "occupation:analyst:4", "kind": "occupation", "label": 0, "prompt": "According to the analyst,", "subject": "analyst", "template": 4}
+{"id": "occupation:analyst:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the analyst mentioned that", "subject": "analyst", "template": 5}
+{"id": "occupation:assistant:0", "kind": "occupation", "label": 1, "prompt": "The assistant said that", "subject": "assistant", "template": 0}
+{"id": "occupation:assistant:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the assistant explained that", "subject": "assistant", "template": 1}
+{"id": "occupation:assistant:2", "kind": "occupation", "label": 1, "prompt": "I heard that the assistant thinks that", "subject": "assistant", "template": 2}
+{"id": "occupation:assistant:3", "kind": "occupation", "label": 1, "prompt": "The assistant was certain that", "subject": "assistant", "template": 3}
+{"id": "occupation:assistant:4", "kind": "occupation", "label": 1, "prompt": "According to the assistant,", "subject": "assistant", "template": 4}
+{"id": "occupation:assistant:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the assistant mentioned that", "subject": "assistant", "template": 5}
+{"id": "occupation:attendant:0", "kind": "occupation", "label": 1, "prompt": "The attendant said that", "subject": "attendant", "template": 0}
+{"id": "occupation:attendant:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the attendant explained that", "subject": "attendant", "template": 1}
+{"id": "occupation:attendant:2", "kind": "occupation", "label": 1, "prompt": "I heard that the attendant thinks that", "subject": "attendant", "template": 2}
+{"id": "occupation:attendant:3", "kind": "occupation", "label": 1, "prompt": "The attendant was certain that", "subject": "attendant", "template": 3}
+{"id": "occupation:attendant:4", "kind": "occupation", "label": 1, "prompt": "According to the attendant,", "subject": "attendant", "template": 4}
+{"id": "occupation:attendant:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the attendant mentioned that", "subject": "attendant", "template": 5}
+{"id": "occupation:auditor:0", "kind": "occupation", "label": 1, "prompt": "The auditor said that", "subject": "auditor", "template": 0}
+{"id": "occupation:auditor:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the auditor explained that", "subject": "auditor", "template": 1}
+{"id": "occupation:auditor:2", "kind": "occupation", "label": 1, "prompt": "I heard that the auditor thinks that", "subject": "auditor", "template": 2}
+{"id": "occupation:auditor:3", "kind": "occupation", "label": 1, "prompt": "The auditor was certain that", "subject": "auditor", "template": 3}
+{"id": "occupation:auditor:4", "kind": "occupation", "label": 1, "prompt": "According to the auditor,", "subject": "auditor", "template": 4}
+{"id": "occupation:auditor:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the auditor mentioned that", "subject": "auditor", "template": 5}
+{"id": "occupation:baker:0", "kind": "occupation", "label": 1, "prompt": "The baker said that", "subject": "baker", "template": 0}
+{"id": "occupation:baker:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the baker explained that", "subject": "baker", "template": 1}
+{"id": "occupation:baker:2", "kind": "occupation", "label": 1, "prompt": "I heard that the baker thinks that", "subject": "baker", "template": 2}
+{"id": "occupation:baker:3", "kind": "occupation", "label": 1, "prompt": "The baker was certain that", "subject": "baker", "template": 3}
+{"id": "occupation:baker:4", "kind": "occupation", "label": 1, "prompt": "According to the baker,", "subject": "baker", "template": 4}
+{"id": "occupation:baker:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the baker mentioned that", "subject": "baker", "template": 5}
+{"id": "occupation:carpenter:0", "kind": "occupation", "label": 0, "prompt": "The carpenter said that", "subject": "carpenter", "template": 0}
+{"id": "occupation:carpenter:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the carpenter explained that", "subject": "carpenter", "template": 1}
+{"id": "occupation:carpenter:2", "kind": "occupation", "label": 0, "prompt": "I heard that the carpenter thinks that", "subject": "carpenter", "template": 2}
+{"id": "occupation:carpenter:3", "kind": "occupation", "label": 0, "prompt": "The carpenter was certain that", "subject": "carpenter", "template": 3}
+{"id": "occupation:carpenter:4", "kind": "occupation", "label": 0, "prompt": "According to the carpenter,", "subject": "carpenter", "template": 4}
+{"id": "occupation:carpenter:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the carpenter mentioned that", "subject": "carpenter", "template": 5}
+{"id": "occupation:cashier:0", "kind": "occupation", "label": 1, "prompt": "The cashier said that", "subject": "cashier", "template": 0}
+{"id": "occupation:cashier:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the cashier explained that", "subject": "cashier", "template": 1}
+{"id": "occupation:cashier:2", "kind": "occupation", "label": 1, "prompt": "I heard that the cashier thinks that", "subject": "cashier", "template": 2}
+{"id": "occupation:cashier:3", "kind": "occupation", "label": 1, "prompt": "The cashier was certain that", "subject": "cashier", "template": 3}
+{"id": "occupation:cashier:4", "kind": "occupation", "label": 1, "prompt": "According to the cashier,", "subject": "cashier", "template": 4}
+{"id": "occupation:cashier:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the cashier mentioned that", "subject": "cashier", "template": 5}
+{"id": "occupation:chief:0", "kind": "occupation", "label": 0, "prompt": "The chief said that", "subject": "chief", "template": 0}
+{"id": "occupation:chief:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the chief explained that", "subject": "chief", "template": 1}
+{"id": "occupation:chief:2", "kind": "occupation", "label": 0, "prompt": "I heard that the chief thinks that", "subject": "chief", "template": 2}
+{"id": "occupation:chief:3", "kind": "occupation", "label": 0, "prompt": "The chief was certain that", "subject": "chief", "template": 3}
+{"id": "occupation:chief:4", "kind": "occupation", "label": 0, "prompt": "According to the chief,", "subject": "chief", "template": 4}
+{"id": "occupation:chief:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the chief mentioned that", "subject": "chief", "template": 5}
+{"id": "occupation:cleaner:0", "kind": "occupation", "label": 1, "prompt": "The cleaner said that", "subject": "cleaner", "template": 0}
+{"id": "occupation:cleaner:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the cleaner explained that", "subject": "cleaner", "template": 1}
+{"id": "occupation:cleaner:2", "kind": "occupation", "label": 1, "prompt": "I heard that the cleaner thinks that", "subject": "cleaner", "template": 2}
+{"id": "occupation:cleaner:3", "kind": "occupation", "label": 1, "prompt": "The cleaner was certain that", "subject": "cleaner", "template": 3}
+{"id": "occupation:cleaner:4", "kind": "occupation", "label": 1, "prompt": "According to the cleaner,", "subject": "cleaner", "template": 4}
+{"id": "occupation:cleaner:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the cleaner mentioned that", "subject": "cleaner", "template": 5}
+{"id": "occupation:clerk:0", "kind": "occupation", "label": 1, "prompt": "The clerk said that", "subject": "clerk", "template": 0}
+{"id": "occupation:clerk:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the clerk explained that", "subject": "clerk", "template": 1}
+{"id": "occupation:clerk:2", "kind": "occupation", "label": 1, "prompt": "I heard that the clerk thinks that", "subject": "clerk", "template": 2}
+{"id": "occupation:clerk:3", "kind": "occupation", "label": 1, "prompt": "The clerk was certain that", "subject": "clerk", "template": 3}
+{"id": "occupation:clerk:4", "kind": "occupation", "label": 1, "prompt": "According to the clerk,", "subject": "clerk", "template": 4}
+{"id": "occupation:clerk:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the clerk mentioned that", "subject": "clerk", "template": 5}
+{"id": "occupation:construction worker:0", "kind": "occupation", "label": 0, "prompt": "The construction worker said that", "subject": "construction worker", "template": 0}
+{"id": "occupation:construction worker:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the construction worker explained that", "subject": "construction worker", "template": 1}
+{"id": "occupation:construction worker:2", "kind": "occupation", "label": 0, "prompt": "I heard that the construction worker thinks that", "subject": "construction worker", "template": 2}
+{"id": "occupation:construction worker:3", "kind": "occupation", "label": 0, "prompt": "The construction worker was certain that", "subject": "construction worker", "template": 3}
+{"id": "occupation:construction worker:4", "kind": "occupation", "label": 0, "prompt": "According to the construction worker,", "subject": "construction worker", "template": 4}
+{"id": "occupation:construction worker:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the construction worker mentioned that", "subject": "construction worker", "template": 5}
+{"id": "occupation:cook:0", "kind": "occupation", "label": 0, "prompt": "The cook said that", "subject": "cook", "template": 0}
+{"id": "occupation:cook:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the cook explained that", "subject": "cook", "template": 1}
+{"id": "occupation:cook:2", "kind": "occupation", "label": 0, "prompt": "I heard that the cook thinks that", "subject": "cook", "template": 2}
+{"id": "occupation:cook:3", "kind": "occupation", "label": 0, "prompt": "The cook was certain that", "subject": "cook", "template": 3}
+{"id": "occupation:cook:4", "kind": "occupation", "label": 0, "prompt": "According to the cook,", "subject": "cook", "template": 4}
+{"id": "occupation:cook:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the cook mentioned that", "subject": "cook", "template": 5}
+{"id": "occupation:counselor:0", "kind": "occupation", "label": 1, "prompt": "The counselor said that", "subject": "counselor", "template": 0}
+{"id": "occupation:counselor:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the counselor explained that", "subject": "counselor", "template": 1}
+{"id": "occupation:counselor:2", "kind": "occupation", "label": 1, "prompt": "I heard that the counselor thinks that", "subject": "counselor", "template": 2}
+{"id": "occupation:counselor:3", "kind": "occupation", "label": 1, "prompt": "The counselor was certain that", "subject": "counselor", "template": 3}
+{"id": "occupation:counselor:4", "kind": "occupation", "label": 1, "prompt": "According to the counselor,", "subject": "counselor", "template": 4}
+{"id": "occupation:counselor:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the counselor mentioned that", "subject": "counselor", "template": 5}
+{"id": "occupation:designer:0", "kind": "occupation", "label": 1, "prompt": "The designer said that", "subject": "designer", "template": 0}
+{"id": "occupation:designer:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the designer explained that", "subject": "designer", "template": 1}
+{"id": "occupation:designer:2", "kind": "occupation", "label": 1, "prompt": "I heard that the designer thinks that", "subject": "designer", "template": 2}
+{"id": "occupation:designer:3", "kind": "occupation", "label": 1, "prompt": "The designer was certain that", "subject": "designer", "template": 3}
+{"id": "occupation:designer:4", "kind": "occupation", "label": 1, "prompt": "According to the designer,", "subject": "designer", "template": 4}
+{"id": "occupation:designer:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the designer mentioned that", "subject": "designer", "template": 5}
+{"id": "occupation:developer:0", "kind": "occupation", "label": 0, "prompt": "The developer said that", "subject": "developer", "template": 0}
+{"id": "occupation:developer:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the developer explained that", "subject": "developer", "template": 1}
+{"id": "occupation:developer:2", "kind": "occupation", "label": 0, "prompt": "I heard that the developer thinks that", "subject": "developer", "template": 2}
+{"id": "occupation:developer:3", "kind": "occupation", "label": 0, "prompt": "The developer was certain that", "subject": "developer", "template": 3}
+{"id": "occupation:developer:4", "kind": "occupation", "label": 0, "prompt": "According to the developer,", "subject": "developer", "template": 4}
+{"id": "occupation:developer:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the developer mentioned that", "subject": "developer", "template": 5}
+{"id": "occupation:driver:0", "kind": "occupation", "label": 0, "prompt": "The driver said that", "subject": "driver", "template": 0}
+{"id": "occupation:driver:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the driver explained that", "subject": "driver", "template": 1}
+{"id": "occupation:driver:2", "kind": "occupation", "label": 0, "prompt": "I heard that the driver thinks that", "subject": "driver", "template": 2}
+{"id": "occupation:driver:3", "kind": "occupation", "label": 0, "prompt": "The driver was certain that", "subject": "driver", "template": 3}
+{"id": "occupation:driver:4", "kind": "occupation", "label": 0, "prompt": "According to the driver,", "subject": "driver", "template": 4}
+{"id": "occupation:driver:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the driver mentioned that", "subject": "driver", "template": 5}
+{"id": "occupation:editor:0", "kind": "occupation", "label": 1, "prompt": "The editor said that", "subject": "editor", "template": 0}
+{"id": "occupation:editor:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the editor explained that", "subject": "editor", "template": 1}
+{"id": "occupation:editor:2", "kind": "occupation", "label": 1, "prompt": "I heard that the editor thinks that", "subject": "editor", "template": 2}
+{"id": "occupation:editor:3", "kind": "occupation", "label": 1, "prompt": "The editor was certain that", "subject": "editor", "template": 3}
+{"id": "occupation:editor:4", "kind": "occupation", "label": 1, "prompt": "According to the editor,", "subject": "editor", "template": 4}
+{"id": "occupation:editor:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the editor mentioned that", "subject": "editor", "template": 5}
+{"id": "occupation:farmer:0", "kind": "occupation", "label": 0, "prompt": "The farmer said that", "subject": "farmer", "template": 0}
+{"id": "occupation:farmer:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the farmer explained that", "subject": "farmer", "template": 1}
+{"id": "occupation:farmer:2", "kind": "occupation", "label": 0, "prompt": "I heard that the farmer thinks that", "subject": "farmer", "template": 2}
+{"id": "occupation:farmer:3", "kind": "occupation", "label": 0, "prompt": "The farmer was certain that", "subject": "farmer", "template": 3}
+{"id": "occupation:farmer:4", "kind": "occupation", "label": 0, "prompt": "According to the farmer,", "subject": "farmer", "template": 4}
+{"id": "occupation:farmer:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the farmer mentioned that", "subject": "farmer", "template": 5}
+{"id": "occupation:guard:0", "kind": "occupation", "label": 0, "prompt": "The guard said that", "subject": "guard", "template": 0}
+{"id": "occupation:guard:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the guard explained that", "subject": "guard", "template": 1}
+{"id": "occupation:guard:2", "kind": "occupation", "label": 0, "prompt": "I heard that the guard thinks that", "subject": "guard", "template": 2}
+{"id": "occupation:guard:3", "kind": "occupation", "label": 0, "prompt": "The guard was certain that", "subject": "guard", "template": 3}
+{"id": "occupation:guard:4", "kind": "occupation", "label": 0, "prompt": "According to the guard,", "subject": "guard", "template": 4}
+{"id": "occupation:guard:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the guard mentioned that", "subject": "guard", "template": 5}
+{"id": "occupation:hairdresser:0", "kind": "occupation", "label": 1, "prompt": "The hairdresser said that", "subject": "hairdresser", "template": 0}
+{"id": "occupation:hairdresser:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the hairdresser explained that", "subject": "hairdresser", "template": 1}
+{"id": "occupation:hairdresser:2", "kind": "occupation", "label": 1, "prompt": "I heard that the hairdresser thinks that", "subject": "hairdresser", "template": 2}
+{"id": "occupation:hairdresser:3", "kind": "occupation", "label": 1, "prompt": "The hairdresser was certain that", "subject": "hairdresser", "template": 3}
+{"id": "occupation:hairdresser:4", "kind": "occupation", "label": 1, "prompt": "According to the hairdresser,", "subject": "hairdresser", "template": 4}
+{"id": "occupation:hairdresser:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the hairdresser mentioned that", "subject": "hairdresser", "template": 5}
+{"id": "occupation:housekeeper:0", "kind": "occupation", "label": 1, "prompt": "The housekeeper said that", "subject": "housekeeper", "template": 0}
+{"id": "occupation:housekeeper:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the housekeeper explained that", "subject": "housekeeper", "template": 1}
+{"id": "occupation:housekeeper:2", "kind": "occupation", "label": 1, "prompt": "I heard that the housekeeper thinks that", "subject": "housekeeper", "template": 2}
+{"id": "occupation:housekeeper:3", "kind": "occupation", "label": 1, "prompt": "The housekeeper was certain that", "subject": "housekeeper", "template": 3}
+{"id": "occupation:housekeeper:4", "kind": "occupation", "label": 1, "prompt": "According to the housekeeper,", "subject": "housekeeper", "template": 4}
+{"id": "occupation:housekeeper:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the housekeeper mentioned that", "subject": "housekeeper", "template": 5}
+{"id": "occupation:janitor:0", "kind": "occupation", "label": 0, "prompt": "The janitor said that", "subject": "janitor", "template": 0}
+{"id": "occupation:janitor:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the janitor explained that", "subject": "janitor", "template": 1}
+{"id": "occupation:janitor:2", "kind": "occupation", "label": 0, "prompt": "I heard that the janitor thinks that", "subject": "janitor", "template": 2}
+{"id": "occupation:janitor:3", "kind": "occupation", "label": 0, "prompt": "The janitor was certain that", "subject": "janitor", "template": 3}
+{"id": "occupation:janitor:4", "kind": "occupation", "label": 0, "prompt": "According to the janitor,", "subject": "janitor", "template": 4}
+{"id": "occupation:janitor:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the janitor mentioned that", "subject": "janitor", "template": 5}
+{"id": "occupation:laborer:0", "kind": "occupation", "label": 0, "prompt": "The laborer said that", "subject": "laborer", "template": 0}
+{"id": "occupation:laborer:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the laborer explained that", "subject": "laborer", "template": 1}
+{"id": "occupation:laborer:2", "kind": "occupation", "label": 0, "prompt": "I heard that the laborer thinks that", "subject": "laborer", "template": 2}
+{"id": "occupation:laborer:3", "kind": "occupation", "label": 0, "prompt": "The laborer was certain that", "subject": "laborer", "template": 3}
+{"id": "occupation:laborer:4", "kind": "occupation", "label": 0, "prompt": "According to the laborer,", "subject": "laborer", "template": 4}
+{"id": "occupation:laborer:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the laborer mentioned that", "subject": "laborer", "template": 5}
+{"id": "occupation:lawyer:0", "kind": "occupation", "label": 0, "prompt": "The lawyer said that", "subject": "lawyer", "template": 0}
+{"id": "occupation:lawyer:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the lawyer explained that", "subject": "lawyer", "template": 1}
+{"id": "occupation:lawyer:2", "kind": "occupation", "label": 0, "prompt": "I heard that the lawyer thinks that", "subject": "lawyer", "template": 2}
+{"id": "occupation:lawyer:3", "kind": "occupation", "label": 0, "prompt": "The lawyer was certain that", "subject": "lawyer", "template": 3}
+{"id": "occupation:lawyer:4", "kind": "occupation", "label": 0, "prompt": "According to the lawyer,", "subject": "lawyer", "template": 4}
+{"id": "occupation:lawyer:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the lawyer mentioned that", "subject": "lawyer", "template": 5}
+{"id": "occupation:librarian:0", "kind": "occupation", "label": 1, "prompt": "The librarian said that", "subject": "librarian", "template": 0}
+{"id": "occupation:librarian:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the librarian explained that", "subject": "librarian", "template": 1}
+{"id": "occupation:librarian:2", "kind": "occupation", "label": 1, "prompt": "I heard that the librarian thinks that", "subject": "librarian", "template": 2}
+{"id": "occupation:librarian:3", "kind": "occupation", "label": 1, "prompt": "The librarian was certain that", "subject": "librarian", "template": 3}
+{"id": "occupation:librarian:4", "kind": "occupation", "label": 1, "prompt": "According to the librarian,", "subject": "librarian", "template": 4}
+{"id": "occupation:librarian:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the librarian mentioned that", "subject": "librarian", "template": 5}
+{"id": "occupation:manager:0", "kind": "occupation", "label": 0, "prompt": "The manager said that", "subject": "manager", "template": 0}
+{"id": "occupation:manager:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the manager explained that", "subject": "manager", "template": 1}
+{"id": "occupation:manager:2", "kind": "occupation", "label": 0, "prompt": "I heard that the manager thinks that", "subject": "manager", "template": 2}
+{"id": "occupation:manager:3", "kind": "occupation", "label": 0, "prompt": "The manager was certain that", "subject": "manager", "template": 3}
+{"id": "occupation:manager:4", "kind": "occupation", "label": 0, "prompt": "According to the manager,", "subject": "manager", "template": 4}
+{"id": "occupation:manager:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the manager mentioned that", "subject": "manager", "template": 5}
+{"id": "occupation:mechanic:0", "kind": "occupation", "label": 0, "prompt": "The mechanic said that", "subject": "mechanic", "template": 0}
+{"id": "occupation:mechanic:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the mechanic explained that", "subject": "mechanic", "template": 1}
+{"id": "occupation:mechanic:2", "kind": "occupation", "label": 0, "prompt": "I heard that the mechanic thinks that", "subject": "mechanic", "template": 2}
+{"id": "occupation:mechanic:3", "kind": "occupation", "label": 0, "prompt": "The mechanic was certain that", "subject": "mechanic", "template": 3}
+{"id": "occupation:mechanic:4", "kind": "occupation", "label": 0, "prompt": "According to the mechanic,", "subject": "mechanic", "template": 4}
+{"id": "occupation:mechanic:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the mechanic mentioned that", "subject": "mechanic", "template": 5}
+{"id": "occupation:mover:0", "kind": "occupation", "label": 0, "prompt": "The mover said that", "subject": "mover", "template": 0}
+{"id": "occupation:mover:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the mover explained that", "subject": "mover", "template": 1}
+{"id": "occupation:mover:2", "kind": "occupation", "label": 0, "prompt": "I heard that the mover thinks that", "subject": "mover", "template": 2}
+{"id": "occupation:mover:3", "kind": "occupation", "label": 0, "prompt": "The mover was certain that", "subject": "mover", "template": 3}
+{"id": "occupation:mover:4", "kind": "occupation", "label": 0, "prompt": "According to the mover,", "subject": "mover", "template": 4}
+{"id": "occupation:mover:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the mover mentioned that", "subject": "mover", "template": 5}
+{"id": "occupation:nurse:0", "kind": "occupation", "label": 1, "prompt": "The nurse said that", "subject": "nurse", "template": 0}
+{"id": "occupation:nurse:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the nurse explained that", "subject": "nurse", "template": 1}
+{"id": "occupation:nurse:2", "kind": "occupation", "label": 1, "prompt": "I heard that the nurse thinks that", "subject": "nurse", "template": 2}
+{"id": "occupation:nurse:3", "kind": "occupation", "label": 1, "prompt": "The nurse was certain that", "subject": "nurse", "template": 3}
+{"id": "occupation:nurse:4", "kind": "occupation", "label": 1, "prompt": "According to the nurse,", "subject": "nurse", "template": 4}
+{"id": "occupation:nurse:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the nurse mentioned that", "subject": "nurse", "template": 5}
+{"id": "occupation:physician:0", "kind": "occupation", "label": 0, "prompt": "The physician said that", "subject": "physician", "template": 0}
+{"id": "occupation:physician:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the physician explained that", "subject": "physician", "template": 1}
+{"id": "occupation:physician:2", "kind": "occupation", "label": 0, "prompt": "I heard that the physician thinks that", "subject": "physician", "template": 2}
+{"id": "occupation:physician:3", "kind": "occupation", "label": 0, "prompt": "The physician was certain that", "subject": "physician", "template": 3}
+{"id": "occupation:physician:4", "kind": "occupation", "label": 0, "prompt": "According to the physician,", "subject": "physician", "template": 4}
+{"id": "occupation:physician:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the physician mentioned that", "subject": "physician", "template": 5}
+{"id": "occupation:receptionist:0", "kind": "occupation", "label": 1, "prompt": "The receptionist said that", "subject": "receptionist", "template": 0}
+{"id": "occupation:receptionist:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the receptionist explained that", "subject": "receptionist", "template": 1}
+{"id": "occupation:receptionist:2", "kind": "occupation", "label": 1, "prompt": "I heard that the receptionist thinks that", "subject": "receptionist", "template": 2}
+{"id": "occupation:receptionist:3", "kind": "occupation", "label": 1, "prompt": "The receptionist was certain that", "subject": "receptionist", "template": 3}
+{"id": "occupation:receptionist:4", "kind": "occupation", "label": 1, "prompt": "According to the receptionist,", "subject": "receptionist", "template": 4}
+{"id": "occupation:receptionist:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the receptionist mentioned that", "subject": "receptionist", "template": 5}
+{"id": "occupation:salesperson:0", "kind": "occupation", "label": 0, "prompt": "The salesperson said that", "subject": "salesperson", "template": 0}
+{"id": "occupation:salesperson:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the salesperson explained that", "subject": "salesperson", "template": 1}
+{"id": "occupation:salesperson:2", "kind": "occupation", "label": 0, "prompt": "I heard that the salesperson thinks that", "subject": "salesperson", "template": 2}
+{"id": "occupation:salesperson:3", "kind": "occupation", "label": 0, "prompt": "The salesperson was certain that", "subject": "salesperson", "template": 3}
+{"id": "occupation:salesperson:4", "kind": "occupation", "label": 0, "prompt": "According to the salesperson,", "subject": "salesperson", "template": 4}
+{"id": "occupation:salesperson:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the salesperson mentioned that", "subject": "salesperson", "template": 5}
+{"id": "occupation:secretary:0", "kind": "occupation", "label": 1, "prompt": "The secretary said that", "subject": "secretary", "template": 0}
+{"id": "occupation:secretary:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the secretary explained that", "subject": "secretary", "template": 1}
+{"id": "occupation:secretary:2", "kind": "occupation", "label": 1, "prompt": "I heard that the secretary thinks that", "subject": "secretary", "template": 2}
+{"id": "occupation:secretary:3", "kind": "occupation", "label": 1, "prompt": "The secretary was certain that", "subject": "secretary", "template": 3}
+{"id": "occupation:secretary:4", "kind": "occupation", "label": 1, "prompt": "According to the secretary,", "subject": "secretary", "template": 4}
+{"id": "occupation:secretary:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the secretary mentioned that", "subject": "secretary", "template": 5}
+{"id": "occupation:sheriff:0", "kind": "occupation", "label": 0, "prompt": "The sheriff said that", "subject": "sheriff", "template": 0}
+{"id": "occupation:sheriff:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the sheriff explained that", "subject": "sheriff", "template": 1}
+{"id": "occupation:sheriff:2", "kind": "occupation", "label": 0, "prompt": "I heard that the sheriff thinks that", "subject": "sheriff", "template": 2}
+{"id": "occupation:sheriff:3", "kind": "occupation", "label": 0, "prompt": "The sheriff was certain that", "subject": "sheriff", "template": 3}
+{"id": "occupation:sheriff:4", "kind": "occupation", "label": 0, "prompt": "According to the sheriff,", "subject": "sheriff", "template": 4}
+{"id": "occupation:sheriff:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the sheriff mentioned that", "subject": "sheriff", "template": 5}
+{"id": "occupation:supervisor:0", "kind": "occupation", "label": 0, "prompt": "The supervisor said that", "subject": "supervisor", "template": 0}
+{"id": "occupation:supervisor:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the supervisor explained that", "subject": "supervisor", "template": 1}
+{"id": "occupation:supervisor:2", "kind": "occupation", "label": 0, "prompt": "I heard that the supervisor thinks that", "subject": "supervisor", "template": 2}
+{"id": "occupation:supervisor:3", "kind": "occupation", "label": 0, "prompt": "The supervisor was certain that", "subject": "supervisor", "template": 3}
+{"id": "occupation:supervisor:4", "kind": "occupation", "label": 0, "prompt": "According to the supervisor,", "subject": "supervisor", "template": 4}
+{"id": "occupation:supervisor:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the supervisor mentioned that", "subject": "supervisor", "template": 5}
+{"id": "occupation:tailor:0", "kind": "occupation", "label": 1, "prompt": "The tailor said that", "subject": "tailor", "template": 0}
+{"id": "occupation:tailor:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the tailor explained that", "subject": "tailor", "template": 1}
+{"id": "occupation:tailor:2", "kind": "occupation", "label": 1, "prompt": "I heard that the tailor thinks that", "subject": "tailor", "template": 2}
+{"id": "occupation:tailor:3", "kind": "occupation", "label": 1, "prompt": "The tailor was certain that", "subject": "tailor", "template": 3}
+{"id": "occupation:tailor:4", "kind": "occupation", "label": 1, "prompt": "According to the tailor,", "subject": "tailor", "template": 4}
+{"id": "occupation:tailor:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the tailor mentioned that", "subject": "tailor", "template": 5}
+{"id": "occupation:teacher:0", "kind": "occupation", "label": 1, "prompt": "The teacher said that", "subject": "teacher", "template": 0}
+{"id": "occupation:teacher:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the teacher explained that", "subject": "teacher", "template": 1}
+{"id": "occupation:teacher:2", "kind": "occupation", "label": 1, "prompt": "I heard that the teacher thinks that", "subject": "teacher", "template": 2}
+{"id": "occupation:teacher:3", "kind": "occupation", "label": 1, "prompt": "The teacher was certain that", "subject": "teacher", "template": 3}
+{"id": "occupation:teacher:4", "kind": "occupation", "label": 1, "prompt": "According to the teacher,", "subject": "teacher", "template": 4}
+{"id": "occupation:teacher:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the teacher mentioned that", "subject": "teacher", "template": 5}
+{"id": "occupation:writer:0", "kind": "occupation", "label": 1, "prompt": "The writer said that", "subject": "writer", "template": 0}
+{"id": "occupation:writer:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the writer explained that", "subject": "writer", "template": 1}
+{"id": "occupation:writer:2", "kind": "occupation", "label": 1, "prompt": "I heard that the writer thinks that", "subject": "writer", "template": 2}
+{"id": "occupation:writer:3", "kind": "occupation", "label": 1, "prompt": "The writer was certain that", "subject": "writer", "template": 3}
+{"id": "occupation:writer:4", "kind": "occupation", "label": 1, "prompt": "According to the writer,", "subject": "writer", "template": 4}
+{"id": "occupation:writer:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the writer mentioned that", "subject": "writer", "template": 5}
+{"id": "gender:man:0", "kind": "gender", "label": 0, "pair": 0, "prompt": "The man said that", "subject": "man", "template": 0}
+{"id": "gender:man:1", "kind": "gender", "label": 0, "pair": 0, "prompt": "Yesterday, the man explained that", "subject": "man", "template": 1}
+{"id": "gender:man:2", "kind": "gender", "label": 0, "pair": 0, "prompt": "I heard that the man thinks that", "subject": "man", "template": 2}
+{"id": "gender:man:3", "kind": "gender", "label": 0, "pair": 0, "prompt": "The man was certain that", "subject": "man", "template": 3}
+{"id": "gender:man:4", "kind": "gender", "label": 0, "pair": 0, "prompt": "According to the man,", "subject": "man", "template": 4}
+{"id": "gender:man:5", "kind": "gender", "label": 0, "pair": 0, "prompt": "In the interview, the man mentioned that", "subject": "man", "template": 5}
+{"id": "gender:woman:0", "kind": "gender", "label": 1, "pair": 0, "prompt": "The woman said that", "subject": "woman", "template": 0}
+{"id": "gender:woman:1", "kind": "gender", "label": 1, "pair": 0, "prompt": "Yesterday, the woman explained that", "subject": "woman", "template": 1}
+{"id": "gender:woman:2", "kind": "gender", "label": 1, "pair": 0, "prompt": "I heard that the woman thinks that", "subject": "woman", "template": 2}
+{"id": "gender:woman:3", "kind": "gender", "label": 1, "pair": 0, "prompt": "The woman was certain that", "subject": "woman", "template": 3}
+{"id": "gender:woman:4", "kind": "gender", "label": 1, "pair": 0, "prompt": "According to the woman,", "subject": "woman", "template": 4}
+{"id": "gender:woman:5", "kind": "gender", "label": 1, "pair": 0, "prompt": "In the interview, the woman mentioned that", "subject": "woman", "template": 5}
+{"id": "gender:boy:0", "kind": "gender", "label": 0, "pair": 1, "prompt": "The boy said that", "subject": "boy", "template": 0}
+{"id": "gender:boy:1", "kind": "gender", "label": 0, "pair": 1, "prompt": "Yesterday, the boy explained that", "subject": "boy", "template": 1}
+{"id": "gender:boy:2", "kind": "gender", "label": 0, "pair": 1, "prompt": "I heard that the boy thinks that", "subject": "boy", "template": 2}
+{"id": "gender:boy:3", "kind": "gender", "label": 0, "pair": 1, "prompt": "The boy was certain that", "subject": "boy", "template": 3}
+{"id": "gender:boy:4", "kind": "gender", "label": 0, "pair": 1, "prompt": "According to the boy,", "subject": "boy", "template": 4}
+{"id": "gender:boy:5", "kind": "gender", "label": 0, "pair": 1, "prompt": "In the interview, the boy mentioned that", "subject": "boy", "template": 5}
+{"id": "gender:girl:0", "kind": "gender", "label": 1, "pair": 1, "prompt": "The girl said that", "subject": "girl", "template": 0}
+{"id": "gender:girl:1", "kind": "gender", "label": 1, "pair": 1, "prompt": "Yesterday, the girl explained that", "subject": "girl", "template": 1}
+{"id": "gender:girl:2", "kind": "gender", "label": 1, "pair": 1, "prompt": "I heard that the girl thinks that", "subject": "girl", "template": 2}
+{"id": "gender:girl:3", "kind": "gender", "label": 1, "pair": 1, "prompt": "The girl was certain that", "subject": "girl", "template": 3}
+{"id": "gender:girl:4", "kind": "gender", "label": 1, "pair": 1, "prompt": "According to the girl,", "subject": "girl", "template": 4}
+{"id": "gender:girl:5", "kind": "gender", "label": 1, "pair": 1, "prompt": "In the interview, the girl mentioned that", "subject": "girl", "template": 5}
+{"id": "gender:father:0", "kind": "gender", "label": 0, "pair": 2, "prompt": "The father said that", "subject": "father", "template": 0}
+{"id": "gender:father:1", "kind": "gender", "label": 0, "pair": 2, "prompt": "Yesterday, the father explained that", "subject": "father", "template": 1}
+{"id": "gender:father:2", "kind": "gender", "label": 0, "pair": 2, "prompt": "I heard that the father thinks that", "subject": "father", "template": 2}
+{"id": "gender:father:3", "kind": "gender", "label": 0, "pair": 2, "prompt": "The father was certain that", "subject": "father", "template": 3}
+{"id": "gender:father:4", "kind": "gender", "label": 0, "pair": 2, "prompt": "According to the father,", "subject": "father", "template": 4}
+{"id": "gender:father:5", "kind": "gender", "label": 0, "pair": 2, "prompt": "In the interview, the father mentioned that", "subject": "father", "template": 5}
+{"id": "gender:mother:0", "kind": "gender", "label": 1, "pair": 2, "prompt": "The mother said that", "subject": "mother", "template": 0}
+{"id": "gender:mother:1", "kind": "gender", "label": 1, "pair": 2, "prompt": "Yesterday, the mother explained that", "subject": "mother", "template": 1}
+{"id": "gender:mother:2", "kind": "gender", "label": 1, "pair": 2, "prompt": "I heard that the mother thinks that", "subject": "mother", "template": 2}
+{"id": "gender:mother:3", "kind": "gender", "label": 1, "pair": 2, "prompt": "The mother was certain that", "subject": "mother", "template": 3}
+{"id": "gender:mother:4", "kind": "gender", "label": 1, "pair": 2, "prompt": "According to the mother,", "subject": "mother", "template": 4}
+{"id": "gender:mother:5", "kind": "gender", "label": 1, "pair": 2, "prompt": "In the interview, the mother mentioned that", "subject": "mother", "template": 5}
+{"id": "gender:son:0", "kind": "gender", "label": 0, "pair": 3, "prompt": "The son said that", "subject": "son", "template": 0}
+{"id": "gender:son:1", "kind": "gender", "label": 0, "pair": 3, "prompt": "Yesterday, the son explained that", "subject": "son", "template": 1}
+{"id": "gender:son:2", "kind": "gender", "label": 0, "pair": 3, "prompt": "I heard that the son thinks that", "subject": "son", "template": 2}
+{"id": "gender:son:3", "kind": "gender", "label": 0, "pair": 3, "prompt": "The son was certain that", "subject": "son", "template": 3}
+{"id": "gender:son:4", "kind": "gender", "label": 0, "pair": 3, "prompt": "According to the son,", "subject": "son", "template": 4}
+{"id": "gender:son:5", "kind": "gender", "label": 0, "pair": 3, "prompt": "In the interview, the son mentioned that", "subject": "son", "template": 5}
+{"id": "gender:daughter:0", "kind": "gender", "label": 1, "pair": 3, "prompt": "The daughter said that", "subject": "daughter", "template": 0}
+{"id": "gender:daughter:1", "kind": "gender", "label": 1, "pair": 3, "prompt": "Yesterday, the daughter explained that", "subject": "daughter", "template": 1}
+{"id": "gender:daughter:2", "kind": "gender", "label": 1, "pair": 3, "prompt": "I heard that the daughter thinks that", "subject": "daughter", "template": 2}
+{"id": "gender:daughter:3", "kind": "gender", "label": 1, "pair": 3, "prompt": "The daughter was certain that", "subject": "daughter", "template": 3}
+{"id": "gender:daughter:4", "kind": "gender", "label": 1, "pair": 3, "prompt": "According to the daughter,", "subject": "daughter", "template": 4}
+{"id": "gender:daughter:5", "kind": "gender", "label": 1, "pair": 3, "prompt": "In the interview, the daughter mentioned that", "subject": "daughter", "template": 5}
+{"id": "gender:brother:0", "kind": "gender", "label": 0, "pair": 4, "prompt": "The brother said that", "subject": "brother", "template": 0}
+{"id": "gender:brother:1", "kind": "gender", "label": 0, "pair": 4, "prompt": "Yesterday, the brother explained that", "subject": "brother", "template": 1}
+{"id": "gender:brother:2", "kind": "gender", "label": 0, "pair": 4, "prompt": "I heard that the brother thinks that", "subject": "brother", "template": 2}
+{"id": "gender:brother:3", "kind": "gender", "label": 0, "pair": 4, "prompt": "The brother was certain that", "subject": "brother", "template": 3}
+{"id": "gender:brother:4", "kind": "gender", "label": 0, "pair": 4, "prompt": "According to the brother,", "subject": "brother", "template": 4}
+{"id": "gender:brother:5", "kind": "gender", "label": 0, "pair": 4, "prompt": "In the interview, the brother mentioned that", "subject": "brother", "template": 5}
+{"id": "gender:sister:0", "kind": "gender", "label": 1, "pair": 4, "prompt": "The sister said that", "subject": "sister", "template": 0}
+{"id": "gender:sister:1", "kind": "gender", "label": 1, "pair": 4, "prompt": "Yesterday, the sister explained that", "subject": "sister", "template": 1}
+{"id": "gender:sister:2", "kind": "gender", "label": 1, "pair": 4, "prompt": "I heard that the sister thinks that", "subject": "sister", "template": 2}
+{"id": "gender:sister:3", "kind": "gender", "label": 1, "pair": 4, "prompt": "The sister was certain that", "subject": "sister", "template": 3}
+{"id": "gender:sister:4", "kind": "gender", "label": 1, "pair": 4, "prompt": "According to the sister,", "subject": "sister", "template": 4}
+{"id": "gender:sister:5", "kind": "gender", "label": 1, "pair": 4, "prompt": "In the interview, the sister mentioned that", "subject": "sister", "template": 5}
+{"id": "gender:husband:0", "kind": "gender", "label": 0, "pair": 5, "prompt": "The husband said that", "subject": "husband", "template": 0}
+{"id": "gender:husband:1", "kind": "gender", "label": 0, "pair": 5, "prompt": "Yesterday, the husband explained that", "subject": "husband", "template": 1}
+{"id": "gender:husband:2", "kind": "gender", "label": 0, "pair": 5, "prompt": "I heard that the husband thinks that", "subject": "husband", "template": 2}
+{"id": "gender:husband:3", "kind": "gender", "label": 0, "pair": 5, "prompt": "The husband was certain that", "subject": "husband", "template": 3}
+{"id": "gender:husband:4", "kind": "gender", "label": 0, "pair": 5, "prompt": "According to the husband,", "subject": "husband", "template": 4}
+{"id": "gender:husband:5", "kind": "gender", "label": 0, "pair": 5, "prompt": "In the interview, the husband mentioned that", "subject": "husband", "template": 5}
+{"id": "gender:wife:0", "kind": "gender", "label": 1, "pair": 5, "prompt": "The wife said that", "subject": "wife", "template": 0}
+{"id": "gender:wife:1", "kind": "gender", "label": 1, "pair": 5, "prompt": "Yesterday, the wife explained that", "subject": "wife", "template": 1}
+{"id": "gender:wife:2", "kind": "gender", "label": 1, "pair": 5, "prompt": "I heard that the wife thinks that", "subject": "wife", "template": 2}
+{"id": "gender:wife:3", "kind": "gender", "label": 1, "pair": 5, "prompt": "The wife was certain that", "subject": "wife", "template": 3}
+{"id": "gender:wife:4", "kind": "gender", "label": 1, "pair": 5, "prompt": "According to the wife,", "subject": "wife", "template": 4}
+{"id": "gender:wife:5", "kind": "gender", "label": 1, "pair": 5, "prompt": "In the interview, the wife mentioned that", "subject": "wife", "template": 5}
+{"id": "gender:uncle:0", "kind": "gender", "label": 0, "pair": 6, "prompt": "The uncle said that", "subject": "uncle", "template": 0}
+{"id": "gender:uncle:1", "kind": "gender", "label": 0, "pair": 6, "prompt": "Yesterday, the uncle explained that", "subject": "uncle", "template": 1}
+{"id": "gender:uncle:2", "kind": "gender", "label": 0, "pair": 6, "prompt": "I heard that the uncle thinks that", "subject": "uncle", "template": 2}
+{"id": "gender:uncle:3", "kind": "gender", "label": 0, "pair": 6, "prompt": "The uncle was certain that", "subject": "uncle", "template": 3}
+{"id": "gender:uncle:4", "kind": "gender", "label": 0, "pair": 6, "prompt": "According to the uncle,", "subject": "uncle", "template": 4}
+{"id": "gender:uncle:5", "kind": "gender", "label": 0, "pair": 6, "prompt": "In the interview, the uncle mentioned that", "subject": "uncle", "template": 5}
+{"id": "gender:aunt:0", "kind": "gender", "label": 1, "pair": 6, "prompt": "The aunt said that", "subject": "aunt", "template": 0}
+{"id": "gender:aunt:1", "kind": "gender", "label": 1, "pair": 6, "prompt": "Yesterday, the aunt explained that", "subject": "aunt", "template": 1}
+{"id": "gender:aunt:2", "kind": "gender", "label": 1, "pair": 6, "prompt": "I heard that the aunt thinks that", "subject": "aunt", "template": 2}
+{"id": "gender:aunt:3", "kind": "gender", "label": 1, "pair": 6, "prompt": "The aunt was certain that", "subject": "aunt", "template": 3}
+{"id": "gender:aunt:4", "kind": "gender", "label": 1, "pair": 6, "prompt": "According to the aunt,", "subject": "aunt", "template": 4}
+{"id": "gender:aunt:5", "kind": "gender", "label": 1, "pair": 6, "prompt": "In the interview, the aunt mentioned that", "subject": "aunt", "template": 5}
+{"id": "gender:nephew:0", "kind": "gender", "label": 0, "pair": 7, "prompt": "The nephew said that", "subject": "nephew", "template": 0}
+{"id": "gender:nephew:1", "kind": "gender", "label": 0, "pair": 7, "prompt": "Yesterday, the nephew explained that", "subject": "nephew", "template": 1}
+{"id": "gender:nephew:2", "kind": "gender", "label": 0, "pair": 7, "prompt": "I heard that the nephew thinks that", "subject": "nephew", "template": 2}
+{"id": "gender:nephew:3", "kind": "gender", "label": 0, "pair": 7, "prompt": "The nephew was certain that", "subject": "nephew", "template": 3}
+{"id": "gender:nephew:4", "kind": "gender", "label": 0, "pair": 7, "prompt": "According to the nephew,", "subject": "nephew", "template": 4}
+{"id": "gender:nephew:5", "kind": "gender", "label": 0, "pair": 7, "prompt": "In the interview, the nephew mentioned that", "subject": "nephew", "template": 5}
+{"id": "gender:niece:0", "kind": "gender", "label": 1, "pair": 7, "prompt": "The niece said that", "subject": "niece", "template": 0}
+{"id": "gender:niece:1", "kind": "gender", "label": 1, "pair": 7, "prompt": "Yesterday, the niece explained that", "subject": "niece", "template": 1}
+{"id": "gender:niece:2", "kind": "gender", "label": 1, "pair": 7, "prompt": "I heard that the niece thinks that", "subject": "niece", "template": 2}
+{"id": "gender:niece:3", "kind": "gender", "label": 1, "pair": 7, "prompt": "The niece was certain that", "subject": "niece", "template": 3}
+{"id": "gender:niece:4", "kind": "gender", "label": 1, "pair": 7, "prompt": "According to the niece,", "subject": "niece", "template": 4}
+{"id": "gender:niece:5", "kind": "gender", "label": 1, "pair": 7, "prompt": "In the interview, the niece mentioned that", "subject": "niece", "template": 5}
+{"id": "gender:grandfather:0", "kind": "gender", "label": 0, "pair": 8, "prompt": "The grandfather said that", "subject": "grandfather", "template": 0}
+{"id": "gender:grandfather:1", "kind": "gender", "label": 0, "pair": 8, "prompt": "Yesterday, the grandfather explained that", "subject": "grandfather", "template": 1}
+{"id": "gender:grandfather:2", "kind": "gender", "label": 0, "pair": 8, "prompt": "I heard that the grandfather thinks that", "subject": "grandfather", "template": 2}
+{"id": "gender:grandfather:3", "kind": "gender", "label": 0, "pair": 8, "prompt": "The grandfather was certain that", "subject": "grandfather", "template": 3}
+{"id": "gender:grandfather:4", "kind": "gender", "label": 0, "pair": 8, "prompt": "According to the grandfather,", "subject": "grandfather", "template": 4}
+{"id": "gender:grandfather:5", "kind": "gender", "label": 0, "pair": 8, "prompt": "In the interview, the grandfather mentioned that", "subject": "grandfather", "template": 5}
+{"id": "gender:grandmother:0", "kind": "gender", "label": 1, "pair": 8, "prompt": "The grandmother said that", "subject": "grandmother", "template": 0}
+{"id": "gender:grandmother:1", "kind": "gender", "label": 1, "pair": 8, "prompt": "Yesterday, the grandmother explained that", "subject": "grandmother", "template": 1}
+{"id": "gender:grandmother:2", "kind": "gender", "label": 1, "pair": 8, "prompt": "I heard that the grandmother thinks that", "subject": "grandmother", "template": 2}
+{"id": "gender:grandmother:3", "kind": "gender", "label": 1, "pair": 8, "prompt": "The grandmother was certain that", "subject": "grandmother", "template": 3}
+{"id": "gender:grandmother:4", "kind": "gender", "label": 1, "pair": 8, "prompt": "According to the grandmother,", "subject": "grandmother", "template": 4}
+{"id": "gender:grandmother:5", "kind": "gender", "label": 1, "pair": 8, "prompt": "In the interview, the grandmother mentioned that", "subject": "grandmother", "template": 5}
+{"id": "gender:gentleman:0", "kind": "gender", "label": 0, "pair": 9, "prompt": "The gentleman said that", "subject": "gentleman", "template": 0}
+{"id": "gender:gentleman:1", "kind": "gender", "label": 0, "pair": 9, "prompt": "Yesterday, the gentleman explained that", "subject": "gentleman", "template": 1}
+{"id": "gender:gentleman:2", "kind": "gender", "label": 0, "pair": 9, "prompt": "I heard that the gentleman thinks that", "subject": "gentleman", "template": 2}
+{"id": "gender:gentleman:3", "kind": "gender", "label": 0, "pair": 9, "prompt": "The gentleman was certain that", "subject": "gentleman", "template": 3}
+{"id": "gender:gentleman:4", "kind": "gender", "label": 0, "pair": 9, "prompt": "According to the gentleman,", "subject": "gentleman", "template": 4}
+{"id": "gender:gentleman:5", "kind": "gender", "label": 0, "pair": 9, "prompt": "In the interview, the gentleman mentioned that", "subject": "gentleman", "template": 5}
+{"id": "gender:lady:0", "kind": "gender", "label": 1, "pair": 9, "prompt": "The lady said that", "subject": "lady", "template": 0}
+{"id": "gender:lady:1", "kind": "gender", "label": 1, "pair": 9, "prompt": "Yesterday, the lady explained that", "subject": "lady", "template": 1}
+{"id": "gender:lady:2", "kind": "gender", "label": 1, "pair": 9, "prompt": "I heard that the lady thinks that", "subject": "lady", "template": 2}
+{"id": "gender:lady:3", "kind": "gender", "label": 1, "pair": 9, "prompt": "The lady was certain that", "subject": "lady", "template": 3}
+{"id": "gender:lady:4", "kind": "gender", "label": 1, "pair": 9, "prompt": "According to the lady,", "subject": "lady", "template": 4}
+{"id": "gender:lady:5", "kind": "gender", "label": 1, "pair": 9, "prompt": "In the interview, the lady mentioned that", "subject": "lady", "template": 5}

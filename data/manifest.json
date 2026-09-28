@@ -1,0 +1,14 @@
+{
+  "matched": {
+    "n": 360,
+    "sha256": "328bc024b4b466a2c44bb4431824b3c1086c5f6d1e60f321473881220e9bfd6c"
+  },
+  "apple_pilot": {
+    "n": 128,
+    "sha256": "38ab7d7721f60c8b49648211e9863675f693128911264d4d6339ed907d18bf67"
+  },
+  "apple_full": {
+    "n": 15840,
+    "sha256": "a3f87d737ba360857b4402f6a1cc0eedd47fd9e98f10171fc3e91ef9a1bb5e62"
+  }
+}

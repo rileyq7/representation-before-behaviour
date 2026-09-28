@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Readme.md",
+    "path": "WinoBias/wino/data/Readme.md",
+    "sha": "5581c8b8028def73479d8d6725490be29e851e3d",
+    "size": 132,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/Readme.md?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/Readme.md",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/5581c8b8028def73479d8d6725490be29e851e3d",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/Readme.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/Readme.md?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/5581c8b8028def73479d8d6725490be29e851e3d",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/Readme.md"
+    }
+  },
+  {
+    "name": "anti_stereotyped_type1.txt.dev",
+    "path": "WinoBias/wino/data/anti_stereotyped_type1.txt.dev",
+    "sha": "ddcd659e0070e5fa6d8b0608b00ffd24d7e913b5",
+    "size": 32782,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type1.txt.dev?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type1.txt.dev",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/ddcd659e0070e5fa6d8b0608b00ffd24d7e913b5",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/anti_stereotyped_type1.txt.dev",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type1.txt.dev?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/ddcd659e0070e5fa6d8b0608b00ffd24d7e913b5",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type1.txt.dev"
+    }
+  },
+  {
+    "name": "anti_stereotyped_type1.txt.test",
+    "path": "WinoBias/wino/data/anti_stereotyped_type1.txt.test",
+    "sha": "c8872b23832acb49a123f7a8e0e6dee4c7b0d35b",
+    "size": 34778,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type1.txt.test?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type1.txt.test",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/c8872b23832acb49a123f7a8e0e6dee4c7b0d35b",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/anti_stereotyped_type1.txt.test",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type1.txt.test?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/c8872b23832acb49a123f7a8e0e6dee4c7b0d35b",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type1.txt.test"
+    }
+  },
+  {
+    "name": "anti_stereotyped_type2.txt.dev",
+    "path": "WinoBias/wino/data/anti_stereotyped_type2.txt.dev",
+    "sha": "04d2d43335149db830bcf487e71e3ad84b5f0ad2",
+    "size": 30875,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type2.txt.dev?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type2.txt.dev",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/04d2d43335149db830bcf487e71e3ad84b5f0ad2",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/anti_stereotyped_type2.txt.dev",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type2.txt.dev?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/04d2d43335149db830bcf487e71e3ad84b5f0ad2",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type2.txt.dev"
+    }
+  },
+  {
+    "name": "anti_stereotyped_type2.txt.test",
+    "path": "WinoBias/wino/data/anti_stereotyped_type2.txt.test",
+    "sha": "d83b0730881d470a76d95c9d2d5992a343bd2423",
+    "size": 31769,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type2.txt.test?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type2.txt.test",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/d83b0730881d470a76d95c9d2d5992a343bd2423",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/anti_stereotyped_type2.txt.test",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/anti_stereotyped_type2.txt.test?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/d83b0730881d470a76d95c9d2d5992a343bd2423",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/anti_stereotyped_type2.txt.test"
+    }
+  },
+  {
+    "name": "conll_format",
+    "path": "WinoBias/wino/data/conll_format",
+    "sha": "c9c1558d8c43de0eeb0c0c91eb84f2935ae7568d",
+    "size": 0,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/conll_format?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/tree/master/WinoBias/wino/data/conll_format",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/trees/c9c1558d8c43de0eeb0c0c91eb84f2935ae7568d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/conll_format?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/trees/c9c1558d8c43de0eeb0c0c91eb84f2935ae7568d",
+      "html": "https://github.com/uclanlp/corefBias/tree/master/WinoBias/wino/data/conll_format"
+    }
+  },
+  {
+    "name": "female_occupations.txt",
+    "path": "WinoBias/wino/data/female_occupations.txt",
+    "sha": "2f1376746ed0a8ad53fdbaa7e53d1d5f2c84994d",
+    "size": 177,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/female_occupations.txt?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/female_occupations.txt",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/2f1376746ed0a8ad53fdbaa7e53d1d5f2c84994d",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/female_occupations.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/female_occupations.txt?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/2f1376746ed0a8ad53fdbaa7e53d1d5f2c84994d",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/female_occupations.txt"
+    }
+  },
+  {
+    "name": "male_occupations.txt",
+    "path": "WinoBias/wino/data/male_occupations.txt",
+    "sha": "bb67f8e6a5b5789ed8dbef4205422e08a4d70006",
+    "size": 169,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/male_occupations.txt?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/male_occupations.txt",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/bb67f8e6a5b5789ed8dbef4205422e08a4d70006",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/male_occupations.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/male_occupations.txt?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/bb67f8e6a5b5789ed8dbef4205422e08a4d70006",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/male_occupations.txt"
+    }
+  },
+  {
+    "name": "pro_stereotyped_type1.txt.dev",
+    "path": "WinoBias/wino/data/pro_stereotyped_type1.txt.dev",
+    "sha": "26235f6f584682f52f871a33eda6e7195023b6fa",
+    "size": 32786,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type1.txt.dev?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type1.txt.dev",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/26235f6f584682f52f871a33eda6e7195023b6fa",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/pro_stereotyped_type1.txt.dev",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type1.txt.dev?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/26235f6f584682f52f871a33eda6e7195023b6fa",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type1.txt.dev"
+    }
+  },
+  {
+    "name": "pro_stereotyped_type1.txt.test",
+    "path": "WinoBias/wino/data/pro_stereotyped_type1.txt.test",
+    "sha": "14dfa3788194ffd9b7bce455676b9a312e547260",
+    "size": 34820,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type1.txt.test?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type1.txt.test",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/14dfa3788194ffd9b7bce455676b9a312e547260",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/pro_stereotyped_type1.txt.test",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type1.txt.test?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/14dfa3788194ffd9b7bce455676b9a312e547260",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type1.txt.test"
+    }
+  },
+  {
+    "name": "pro_stereotyped_type2.txt.dev",
+    "path": "WinoBias/wino/data/pro_stereotyped_type2.txt.dev",
+    "sha": "584d9c1cc6672b014d9aac3c2383650866470b61",
+    "size": 30884,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type2.txt.dev?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type2.txt.dev",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/584d9c1cc6672b014d9aac3c2383650866470b61",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/pro_stereotyped_type2.txt.dev",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type2.txt.dev?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/584d9c1cc6672b014d9aac3c2383650866470b61",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type2.txt.dev"
+    }
+  },
+  {
+    "name": "pro_stereotyped_type2.txt.test",
+    "path": "WinoBias/wino/data/pro_stereotyped_type2.txt.test",
+    "sha": "e0c786e81a6f8e7ee84ba1cb76167cc0bf941c95",
+    "size": 31749,
+    "url": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type2.txt.test?ref=master",
+    "html_url": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type2.txt.test",
+    "git_url": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/e0c786e81a6f8e7ee84ba1cb76167cc0bf941c95",
+    "download_url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/pro_stereotyped_type2.txt.test",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/uclanlp/corefBias/contents/WinoBias/wino/data/pro_stereotyped_type2.txt.test?ref=master",
+      "git": "https://api.github.com/repos/uclanlp/corefBias/git/blobs/e0c786e81a6f8e7ee84ba1cb76167cc0bf941c95",
+      "html": "https://github.com/uclanlp/corefBias/blob/master/WinoBias/wino/data/pro_stereotyped_type2.txt.test"
+    }
+  }
+]

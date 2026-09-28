@@ -1,0 +1,37 @@
+[
+  {
+    "file": "data/raw/Readme.md",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/Readme.md",
+    "sha256": "f6fca47328268b56806d9c2443c7d3a78979c78c5d5e0a601fc18b84ab6dbb1d"
+  },
+  {
+    "file": "data/raw/anti_stereotyped_type2.txt.dev",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/anti_stereotyped_type2.txt.dev",
+    "sha256": "763ad829ad724f9a85ead689ba8ca69072020cb1238def6210f0fc6a47b97e59"
+  },
+  {
+    "file": "data/raw/anti_stereotyped_type2.txt.test",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/anti_stereotyped_type2.txt.test",
+    "sha256": "336571ac1ea8c06cd2aba8e5dd2bd98e00acc0c48da3e4ec5ec7e54eb2633a8f"
+  },
+  {
+    "file": "data/raw/female_occupations.txt",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/female_occupations.txt",
+    "sha256": "693bff12286c2c1d46c7d4d45a44a631574710c30b39c1a3001bb7bdebb44ed8"
+  },
+  {
+    "file": "data/raw/male_occupations.txt",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/male_occupations.txt",
+    "sha256": "6b82d88847b69d56d207a0c396e9830b031890de585e916e6b4e9bc50672657e"
+  },
+  {
+    "file": "data/raw/pro_stereotyped_type2.txt.dev",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/pro_stereotyped_type2.txt.dev",
+    "sha256": "8f0250de723cea9328e3eaf7169e07936f01aa5909ce7aa580db66eb803f4e86"
+  },
+  {
+    "file": "data/raw/pro_stereotyped_type2.txt.test",
+    "url": "https://raw.githubusercontent.com/uclanlp/corefBias/master/WinoBias/wino/data/pro_stereotyped_type2.txt.test",
+    "sha256": "ea1c1fd94fa612e3cc44d7fa3cc4cb76021bb63fdf94f9826f430051e9052438"
+  }
+]

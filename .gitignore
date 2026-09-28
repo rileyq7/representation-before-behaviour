@@ -1,0 +1,11 @@
+.venv/
+.cache/
+.firecrawl/
+__pycache__/
+.pytest_cache/
+results/**/activations.npz
+*.log
+
+.DS_Store
+*.lock
+STOP

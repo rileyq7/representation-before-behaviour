@@ -1,0 +1,597 @@
+{
+  "step": 93000,
+  "provenance": {
+    "repo": "EleutherAI/pythia-1.4b",
+    "step": 93000,
+    "sha": "22548866f3e701db636bf4edfdd748f2c46a9c9e",
+    "format": "pytorch_model.bin",
+    "weight_sha256": "1a534219131c38eff0af0376b3a3ec06754338f798da99df27b03ae77c805c50",
+    "download_and_verify_seconds": 98.23108312499244,
+    "parallel_xet_enabled": false
+  },
+  "protocol_sha256": "22ca5b0e1c291c425feaa6a2aa1b64f23f0eac7e08facd4131b4f2db0957bcb5",
+  "data_sha256": "328bc024b4b466a2c44bb4431824b3c1086c5f6d1e60f321473881220e9bfd6c",
+  "code_sha256": {
+    "src/mech/__init__.py": "10cb75c669a1d3d5a2698b0605715f39fd3f76285006c7941f779e5b665c0fe7",
+    "src/mech/amendment.py": "a300e2c2f8d125388448e84f96e5495a58291c227e261b3c1230da0371aaa38e",
+    "src/mech/analysis.py": "13e50834ee29a8239004573312c36a65e7fb5ffe02a0b59d4bd919a2b40a18da",
+    "src/mech/data.py": "f490111c42c3b25c2556429493a4866cab3261432ec89e181ffb924a5de69ebc",
+    "src/mech/inference.py": "825e533c9a825759f314e77dd1bfb4bf9e8ab9c95a5cf01677c00e9caee4a66d",
+    "src/mech/metrics.py": "c4028c27b08674be51fdc64029d839438d5907fa4eb40e886817f37c4e2a379f",
+    "src/mech/probes.py": "1e290e40bbe5c6fc0b4a2dd7fc432008e2109fb4dd7656e0e9134685e535a866",
+    "scripts/amend.py": "fa245c80567556101093e47352e4303f88e2637dcba1605e9d794aacc2600e87",
+    "scripts/benchmark_downloads.py": "142c93e9e420696a20e894822532a9b74d012a84654b05042e7356e5b5ad0931",
+    "scripts/download_checkpoint.py": "87175652b2da4c3933c4f75bfb6ee30aed2a2a08aedb6a93b5370105a8a1eefd",
+    "scripts/fetch_data.py": "9c29008e0a7893a23aba40eacf049b5e0a6c956b7d9528cc517ad3ec5bb3465f",
+    "scripts/launch.py": "fd5bcb3a956bdd913fe46575e92182bf8986bf2671e2341a1f53ffeb0f150922",
+    "scripts/run.py": "4664fa86322ac0ab98b0a74f24c2f984ed9dbf00d1f41feaa87bad6568a22f76",
+    "scripts/status.py": "6483fa9ef6be467638c5a6227c6d4213f54bccc4828700e637b18e5ebeefb3a9",
+    "scripts/verify_inference.py": "3472dd483aff2fe57d4f036a5b7cbc2b0ca710fe880044b7e9c4452bc0178230",
+    "requirements-lock.txt": "6bbedd4c611942df871c0c17abb437e3293238b1e745082d28ebd94adb5fa509"
+  },
+  "device": "mps",
+  "dtype": "float16",
+  "layers": [
+    0,
+    6,
+    12,
+    18,
+    24
+  ],
+  "occupations": [
+    "CEO",
+    "accountant",
+    "analyst",
+    "assistant",
+    "attendant",
+    "auditor",
+    "baker",
+    "carpenter",
+    "cashier",
+    "chief",
+    "cleaner",
+    "clerk",
+    "construction worker",
+    "cook",
+    "counselor",
+    "designer",
+    "developer",
+    "driver",
+    "editor",
+    "farmer",
+    "guard",
+    "hairdresser",
+    "housekeeper",
+    "janitor",
+    "laborer",
+    "lawyer",
+    "librarian",
+    "manager",
+    "mechanic",
+    "mover",
+    "nurse",
+    "physician",
+    "receptionist",
+    "salesperson",
+    "secretary",
+    "sheriff",
+    "supervisor",
+    "tailor",
+    "teacher",
+    "writer"
+  ],
+  "occupation_labels": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "per_occupation": {
+    "behaviour": [
+      1.8430989583333333,
+      -1.0859375,
+      0.921875,
+      -0.6119791666666666,
+      -0.6549479166666666,
+      -0.7552083333333334,
+      -1.15625,
+      2.51953125,
+      -0.0078125,
+      1.6588541666666667,
+      0.10026041666666667,
+      -0.5455729166666666,
+      2.2760416666666665,
+      0.3515625,
+      0.21614583333333334,
+      -0.8515625,
+      2.4088541666666665,
+      1.8216145833333333,
+      -1.0651041666666667,
+      2.3932291666666665,
+      1.4921875,
+      -0.15104166666666666,
+      1.06640625,
+      1.3359375,
+      2.2669270833333335,
+      1.19921875,
+      0.23697916666666666,
+      1.20703125,
+      1.8984375,
+      1.7721354166666667,
+      0.75,
+      0.80859375,
+      0.4114583333333333,
+      0.58203125,
+      -0.2760416666666667,
+      1.87109375,
+      0.5572916666666666,
+      -1.3125,
+      -0.036458333333333336,
+      -1.1015625
+    ],
+    "transfer_accuracy": [
+      1.0,
+      0.0,
+      1.0,
+      0.16666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      0.8333333333333334,
+      0.3333333333333333,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.16666666666666666,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "behaviour_accuracy": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8333333333333334,
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  "transfer": {
+    "mean": 0.6541666666666666,
+    "ci95": [
+      0.5791666666666666,
+      0.7416666666666666
+    ]
+  },
+  "behaviour": {
+    "mean": 0.6088704427083333,
+    "ci95": [
+      0.3994816080729167,
+      0.815439453125
+    ]
+  },
+  "raw_female_logodds": -0.9504069089889526,
+  "female_minus_male_occupation_logodds": 1.217740774154663,
+  "probes": {
+    "layer_0": {
+      "transfer": {
+        "accuracy": 0.5,
+        "auc": 0.5
+      },
+      "direct": [
+        {
+          "accuracy": 0.5,
+          "auc": 0.5
+        },
+        {
+          "accuracy": 0.5,
+          "auc": 0.5
+        },
+        {
+          "accuracy": 0.5,
+          "auc": 0.5
+        }
+      ],
+      "direct_label_permutation": [
+        {
+          "accuracy": 0.3,
+          "auc": 0.24
+        },
+        {
+          "accuracy": 0.4,
+          "auc": 0.36000000000000004
+        },
+        {
+          "accuracy": 0.3,
+          "auc": 0.26
+        }
+      ],
+      "gender_validation": {
+        "accuracy": 0.5,
+        "auc": 0.5
+      }
+    },
+    "layer_6": {
+      "transfer": {
+        "accuracy": 0.6791666666666667,
+        "auc": 0.8628472222222222
+      },
+      "direct": [
+        {
+          "accuracy": 0.6125,
+          "auc": 0.6900694444444445
+        },
+        {
+          "accuracy": 0.6208333333333333,
+          "auc": 0.704513888888889
+        },
+        {
+          "accuracy": 0.6416666666666667,
+          "auc": 0.7225694444444445
+        }
+      ],
+      "direct_label_permutation": [
+        {
+          "accuracy": 0.5041666666666667,
+          "auc": 0.48555555555555563
+        },
+        {
+          "accuracy": 0.49583333333333335,
+          "auc": 0.500486111111111
+        },
+        {
+          "accuracy": 0.4625,
+          "auc": 0.43034722222222227
+        }
+      ],
+      "gender_validation": {
+        "accuracy": 1.0,
+        "auc": 1.0
+      }
+    },
+    "layer_12": {
+      "transfer": {
+        "accuracy": 0.6541666666666667,
+        "auc": 0.7981944444444443
+      },
+      "direct": [
+        {
+          "accuracy": 0.6541666666666667,
+          "auc": 0.745625
+        },
+        {
+          "accuracy": 0.6541666666666667,
+          "auc": 0.7326388888888888
+        },
+        {
+          "accuracy": 0.7041666666666667,
+          "auc": 0.7873611111111112
+        }
+      ],
+      "direct_label_permutation": [
+        {
+          "accuracy": 0.5583333333333333,
+          "auc": 0.569861111111111
+        },
+        {
+          "accuracy": 0.5416666666666666,
+          "auc": 0.5337500000000002
+        },
+        {
+          "accuracy": 0.5,
+          "auc": 0.4797222222222222
+        }
+      ],
+      "gender_validation": {
+        "accuracy": 1.0,
+        "auc": 1.0
+      },
+      "transfer_null": [
+        {
+          "accuracy": 0.5166666666666667,
+          "auc": 0.5376388888888888
+        },
+        {
+          "accuracy": 0.45416666666666666,
+          "auc": 0.4547222222222222
+        },
+        {
+          "accuracy": 0.4708333333333333,
+          "auc": 0.470625
+        },
+        {
+          "accuracy": 0.5875,
+          "auc": 0.6434722222222221
+        },
+        {
+          "accuracy": 0.475,
+          "auc": 0.48590277777777774
+        },
+        {
+          "accuracy": 0.55,
+          "auc": 0.5124305555555555
+        },
+        {
+          "accuracy": 0.5666666666666667,
+          "auc": 0.5877777777777777
+        },
+        {
+          "accuracy": 0.4791666666666667,
+          "auc": 0.4231944444444445
+        },
+        {
+          "accuracy": 0.5333333333333333,
+          "auc": 0.5459722222222222
+        },
+        {
+          "accuracy": 0.5208333333333334,
+          "auc": 0.5370138888888889
+        },
+        {
+          "accuracy": 0.5,
+          "auc": 0.569513888888889
+        },
+        {
+          "accuracy": 0.5291666666666667,
+          "auc": 0.5900694444444443
+        },
+        {
+          "accuracy": 0.4708333333333333,
+          "auc": 0.49993055555555554
+        },
+        {
+          "accuracy": 0.5333333333333333,
+          "auc": 0.55
+        },
+        {
+          "accuracy": 0.5875,
+          "auc": 0.6172222222222222
+        },
+        {
+          "accuracy": 0.5375,
+          "auc": 0.5752083333333333
+        },
+        {
+          "accuracy": 0.525,
+          "auc": 0.47430555555555554
+        },
+        {
+          "accuracy": 0.35833333333333334,
+          "auc": 0.3138888888888889
+        },
+        {
+          "accuracy": 0.6125,
+          "auc": 0.6890277777777779
+        },
+        {
+          "accuracy": 0.5458333333333333,
+          "auc": 0.558125
+        }
+      ]
+    },
+    "layer_18": {
+      "transfer": {
+        "accuracy": 0.6666666666666666,
+        "auc": 0.8725694444444444
+      },
+      "direct": [
+        {
+          "accuracy": 0.7125,
+          "auc": 0.7631944444444445
+        },
+        {
+          "accuracy": 0.7291666666666666,
+          "auc": 0.7876388888888889
+        },
+        {
+          "accuracy": 0.7541666666666667,
+          "auc": 0.8266666666666667
+        }
+      ],
+      "direct_label_permutation": [
+        {
+          "accuracy": 0.49166666666666664,
+          "auc": 0.5089583333333333
+        },
+        {
+          "accuracy": 0.5666666666666667,
+          "auc": 0.565763888888889
+        },
+        {
+          "accuracy": 0.4708333333333333,
+          "auc": 0.4649305555555555
+        }
+      ],
+      "gender_validation": {
+        "accuracy": 1.0,
+        "auc": 1.0
+      }
+    },
+    "layer_24": {
+      "transfer": {
+        "accuracy": 0.675,
+        "auc": 0.8394444444444444
+      },
+      "direct": [
+        {
+          "accuracy": 0.6791666666666667,
+          "auc": 0.7379166666666666
+        },
+        {
+          "accuracy": 0.7291666666666666,
+          "auc": 0.7696527777777777
+        },
+        {
+          "accuracy": 0.7541666666666667,
+          "auc": 0.8078472222222222
+        }
+      ],
+      "direct_label_permutation": [
+        {
+          "accuracy": 0.5166666666666667,
+          "auc": 0.5276388888888889
+        },
+        {
+          "accuracy": 0.5291666666666667,
+          "auc": 0.5378472222222223
+        },
+        {
+          "accuracy": 0.44583333333333336,
+          "auc": 0.41923611111111114
+        }
+      ],
+      "gender_validation": {
+        "accuracy": 1.0,
+        "auc": 1.0
+      }
+    },
+    "convergence_warnings": []
+  },
+  "apple_pilot": {
+    "n": 128,
+    "accuracy_restricted": 0.5,
+    "male": {
+      "n": 32,
+      "rank": 46.0625,
+      "jsdp_correct": 0.28204664455822614,
+      "accuracy_restricted": 0.0,
+      "accuracy_vocab": 0.0,
+      "mean_probabilities": [
+        0.041833046823740005,
+        0.041543103754520416,
+        0.9166238903999329
+      ]
+    },
+    "female": {
+      "n": 32,
+      "rank": 42.125,
+      "jsdp_correct": 0.2731548618743435,
+      "accuracy_restricted": 0.0,
+      "accuracy_vocab": 0.0,
+      "mean_probabilities": [
+        0.03733671084046364,
+        0.05096524953842163,
+        0.9116979837417603
+      ]
+    },
+    "not": {
+      "n": 64,
+      "rank": 1.34375,
+      "jsdp_correct": 0.001315937623907823,
+      "accuracy_restricted": 1.0,
+      "accuracy_vocab": 0.734375,
+      "mean_probabilities": [
+        0.036636270582675934,
+        0.037278421223163605,
+        0.9260852932929993
+      ]
+    },
+    "female_minus_male_jsdp": -0.008891782683882632,
+    "ambiguous_signed_stereotype_logodds": 0.0455322265625
+  },
+  "timings": {
+    "total_seconds": 36.63996741702431,
+    "matched_inference_seconds": 9.524433666985715,
+    "apple_inference_seconds": 8.20196258398937
+  },
+  "loading": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  }
+}

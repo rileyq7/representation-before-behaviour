@@ -1,0 +1,12 @@
+{"id": "occupation:CEO:0", "kind": "occupation", "label": 0, "prompt": "The CEO said that", "subject": "CEO", "template": 0}
+{"id": "occupation:CEO:1", "kind": "occupation", "label": 0, "prompt": "Yesterday, the CEO explained that", "subject": "CEO", "template": 1}
+{"id": "occupation:CEO:2", "kind": "occupation", "label": 0, "prompt": "I heard that the CEO thinks that", "subject": "CEO", "template": 2}
+{"id": "occupation:CEO:3", "kind": "occupation", "label": 0, "prompt": "The CEO was certain that", "subject": "CEO", "template": 3}
+{"id": "occupation:CEO:4", "kind": "occupation", "label": 0, "prompt": "According to the CEO,", "subject": "CEO", "template": 4}
+{"id": "occupation:CEO:5", "kind": "occupation", "label": 0, "prompt": "In the interview, the CEO mentioned that", "subject": "CEO", "template": 5}
+{"id": "occupation:accountant:0", "kind": "occupation", "label": 1, "prompt": "The accountant said that", "subject": "accountant", "template": 0}
+{"id": "occupation:accountant:1", "kind": "occupation", "label": 1, "prompt": "Yesterday, the accountant explained that", "subject": "accountant", "template": 1}
+{"id": "occupation:accountant:2", "kind": "occupation", "label": 1, "prompt": "I heard that the accountant thinks that", "subject": "accountant", "template": 2}
+{"id": "occupation:accountant:3", "kind": "occupation", "label": 1, "prompt": "The accountant was certain that", "subject": "accountant", "template": 3}
+{"id": "occupation:accountant:4", "kind": "occupation", "label": 1, "prompt": "According to the accountant,", "subject": "accountant", "template": 4}
+{"id": "occupation:accountant:5", "kind": "occupation", "label": 1, "prompt": "In the interview, the accountant mentioned that", "subject": "accountant", "template": 5}

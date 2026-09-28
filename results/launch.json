@@ -1,0 +1,18 @@
+{
+  "launcher_pid": 52634,
+  "started": 1790112162.803607,
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "/Users/rileycoleman/Mechanism/.venv/bin/python",
+    "-u",
+    "/Users/rileycoleman/Mechanism/scripts/run.py",
+    "sweep",
+    "--steps",
+    "all",
+    "--device",
+    "mps",
+    "--full-bracket"
+  ],
+  "log": "/Users/rileycoleman/Mechanism/results/sweep.log"
+}

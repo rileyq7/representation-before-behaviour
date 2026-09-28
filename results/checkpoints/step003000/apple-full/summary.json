@@ -1,0 +1,98 @@
+{
+  "step": 3000,
+  "provenance": {
+    "repo": "EleutherAI/pythia-1.4b",
+    "step": 3000,
+    "sha": "05a37d54b83707bc973d036a597961e68cd22415",
+    "format": "pytorch_model.bin",
+    "weight_sha256": "61ab922bc363821b5e2b19db8ff4d8c80b6b52a918844da721911addf18a561c",
+    "download_and_verify_seconds": 95.91714670797228,
+    "parallel_xet_enabled": false
+  },
+  "protocol_sha256": "22ca5b0e1c291c425feaa6a2aa1b64f23f0eac7e08facd4131b4f2db0957bcb5",
+  "metrics": {
+    "n": 15840,
+    "accuracy_restricted": 0.4240530303030303,
+    "male": {
+      "n": 3970,
+      "rank": 3.995717884130982,
+      "jsdp_correct": 0.07745133966998984,
+      "accuracy_restricted": 0.24962216624685138,
+      "accuracy_vocab": 0.010327455919395465,
+      "mean_probabilities": [
+        0.3806431293487549,
+        0.08304047584533691,
+        0.5363173484802246
+      ]
+    },
+    "female": {
+      "n": 3950,
+      "rank": 12.571898734177216,
+      "jsdp_correct": 0.21319515809107606,
+      "accuracy_restricted": 0.0,
+      "accuracy_vocab": 0.0,
+      "mean_probabilities": [
+        0.35795512795448303,
+        0.10264453291893005,
+        0.5394008755683899
+      ]
+    },
+    "not": {
+      "n": 7920,
+      "rank": 2.4693181818181817,
+      "jsdp_correct": 0.04380204779237445,
+      "accuracy_restricted": 0.722979797979798,
+      "accuracy_vocab": 0.0845959595959596,
+      "mean_probabilities": [
+        0.3828275203704834,
+        0.09712643176317215,
+        0.520045816898346
+      ]
+    },
+    "female_minus_male_jsdp": 0.13574381842108624,
+    "ambiguous_signed_stereotype_logodds": 0.007200915404040404,
+    "test_only": {
+      "n": 7920,
+      "accuracy_restricted": 0.4241161616161616,
+      "male": {
+        "n": 1990,
+        "rank": 3.8839195979899497,
+        "jsdp_correct": 0.07589267538304022,
+        "accuracy_restricted": 0.2537688442211055,
+        "accuracy_vocab": 0.013567839195979899,
+        "mean_probabilities": [
+          0.38437801599502563,
+          0.08310346305370331,
+          0.5325182676315308
+        ]
+      },
+      "female": {
+        "n": 1970,
+        "rank": 12.243147208121828,
+        "jsdp_correct": 0.21328327264429287,
+        "accuracy_restricted": 0.0,
+        "accuracy_vocab": 0.0,
+        "mean_probabilities": [
+          0.36156165599823,
+          0.10237997770309448,
+          0.5360580086708069
+        ]
+      },
+      "not": {
+        "n": 3960,
+        "rank": 2.467929292929293,
+        "jsdp_correct": 0.04392254114648315,
+        "accuracy_restricted": 0.7207070707070707,
+        "accuracy_vocab": 0.09015151515151515,
+        "mean_probabilities": [
+          0.38593435287475586,
+          0.09685121476650238,
+          0.517216145992279
+        ]
+      },
+      "female_minus_male_jsdp": 0.13739059726125263,
+      "ambiguous_signed_stereotype_logodds": 0.016516729797979798
+    }
+  },
+  "seconds": 825.1542716670083
+}

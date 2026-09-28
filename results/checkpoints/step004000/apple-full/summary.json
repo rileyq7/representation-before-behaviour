@@ -1,0 +1,98 @@
+{
+  "step": 4000,
+  "provenance": {
+    "repo": "EleutherAI/pythia-1.4b",
+    "step": 4000,
+    "sha": "e27c7a8944677b79afa3da836d8be00346511c9f",
+    "format": "pytorch_model.bin",
+    "weight_sha256": "caeaf1a0b5e6b0686b4e6414eb8133e2625f67c9208ff3f4ffeec859f1ed9f54",
+    "download_and_verify_seconds": 108.500281790999,
+    "parallel_xet_enabled": false
+  },
+  "protocol_sha256": "22ca5b0e1c291c425feaa6a2aa1b64f23f0eac7e08facd4131b4f2db0957bcb5",
+  "metrics": {
+    "n": 15840,
+    "accuracy_restricted": 0.4681818181818182,
+    "male": {
+      "n": 3970,
+      "rank": 8.448866498740554,
+      "jsdp_correct": 0.13045027500817122,
+      "accuracy_restricted": 0.1415617128463476,
+      "accuracy_vocab": 0.005289672544080605,
+      "mean_probabilities": [
+        0.24970687925815582,
+        0.20209620893001556,
+        0.548196017742157
+      ]
+    },
+    "female": {
+      "n": 3950,
+      "rank": 7.635189873417722,
+      "jsdp_correct": 0.12534629659360585,
+      "accuracy_restricted": 0.14734177215189873,
+      "accuracy_vocab": 0.006582278481012658,
+      "mean_probabilities": [
+        0.18885506689548492,
+        0.25853270292282104,
+        0.552612841129303
+      ]
+    },
+    "not": {
+      "n": 7920,
+      "rank": 2.7542929292929292,
+      "jsdp_correct": 0.04944885323567509,
+      "accuracy_restricted": 0.7919191919191919,
+      "accuracy_vocab": 0.13446969696969696,
+      "mean_probabilities": [
+        0.23976024985313416,
+        0.24515242874622345,
+        0.5150882005691528
+      ]
+    },
+    "female_minus_male_jsdp": -0.005103978414565363,
+    "ambiguous_signed_stereotype_logodds": 0.007869712752525253,
+    "test_only": {
+      "n": 7920,
+      "accuracy_restricted": 0.4702020202020202,
+      "male": {
+        "n": 1990,
+        "rank": 8.150753768844222,
+        "jsdp_correct": 0.1301668315385551,
+        "accuracy_restricted": 0.12261306532663317,
+        "accuracy_vocab": 0.004522613065326633,
+        "mean_probabilities": [
+          0.24829745292663574,
+          0.2022538185119629,
+          0.5494482517242432
+        ]
+      },
+      "female": {
+        "n": 1970,
+        "rank": 7.376142131979695,
+        "jsdp_correct": 0.12510021554425252,
+        "accuracy_restricted": 0.12487309644670051,
+        "accuracy_vocab": 0.005076142131979695,
+        "mean_probabilities": [
+          0.18989279866218567,
+          0.25710001587867737,
+          0.5530080795288086
+        ]
+      },
+      "not": {
+        "n": 3960,
+        "rank": 2.7075757575757575,
+        "jsdp_correct": 0.04800248554206997,
+        "accuracy_restricted": 0.8166666666666667,
+        "accuracy_vocab": 0.12297979797979798,
+        "mean_probabilities": [
+          0.23987263441085815,
+          0.24458132684230804,
+          0.5155457258224487
+        ]
+      },
+      "female_minus_male_jsdp": -0.005066615994302581,
+      "ambiguous_signed_stereotype_logodds": 0.005020912247474747
+    }
+  },
+  "seconds": 868.2194217910001
+}

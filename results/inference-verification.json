@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "device": "mps",
+  "max_full_forward_logit_error": 0.0234375,
+  "max_single_vs_batch_logit_error": 0.0234375,
+  "answer_ids": [
+    344,
+    703,
+    5086,
+    5343,
+    417
+  ],
+  "max_fp32_cpu_logit_error": 0.014656782150268555,
+  "max_fp32_cpu_logodds_error": 0.006958961486816406,
+  "loading": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "n": 8,
+  "checked_layers": [
+    0,
+    6,
+    12,
+    18,
+    24
+  ]
+}

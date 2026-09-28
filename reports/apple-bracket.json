@@ -1,0 +1,11 @@
+{
+  "steps": [
+    2000,
+    3000,
+    4000,
+    5000
+  ],
+  "selected_change": -0.131955700691671,
+  "method": "Largest absolute adjacent JSD-P-gap change after step1000; endpoints plus one neighbour on each side.",
+  "warning": "Exploratory selection is not evidence of a discontinuity. Confirm on test-only full reconstruction."
+}
